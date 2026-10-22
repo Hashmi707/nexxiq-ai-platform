@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.env
+.env.*
+.git
+.gitignore
+private/
+logs/
+backups/
+scratch/
+tests/
+*.md
+!README.md

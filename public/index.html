@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexxIQ AI Platform — Autonomous Lead, Job & ATS Engine</title>
+  <meta name="description" content="Production-ready autonomous AI platform for intelligent lead generation, multi-platform job applications, ATS resume enhancement, and secure SMTP outreach. Domain: nexxiqai.com" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22 width=%2232%22 height=%2232%22><text y=%2224%22 font-size=%2224%22>⚡</text></svg>" />
+</head>
+<body>
+
+  <!-- Left Sidebar Navigation -->
+  <aside class="sidebar">
+    <div class="brand-header">
+      <div class="brand-logo">N</div>
+      <div class="brand-text">
+        <h1>NexxIQ AI</h1>
+        <span>nexxiqai.com</span>
+      </div>
+    </div>
+
+    <nav class="nav-menu">
+      <a class="nav-item active" data-view="dashboard">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+        <span>Overview</span>
+      </a>
+      <a class="nav-item" data-view="leads">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <span>Lead Finder</span>
+      </a>
+      <a class="nav-item" data-view="email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <span>Email & SMTP Hub</span>
+      </a>
+      <a class="nav-item" data-view="jobs">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        <span>Job Applications</span>
+      </a>
+      <a class="nav-item" data-view="resume">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        <span>Resume & ATS AI</span>
+      </a>
+      <a class="nav-item" data-view="workflow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span>Unified Workflow</span>
+      </a>
+      <a class="nav-item" data-view="settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+        <span>System & Secrets</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="founder-pill">
+        <strong>Syed Akbar Hashmi</strong>
+        <span><div class="status-dot"></div> AI Native Full Stack Lead</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main View Area -->
+  <main class="main-wrapper">
+
+    <!-- Top Navigation Bar -->
+    <header class="top-navbar">
+      <div class="top-title">
+        <h2 id="page-title">Platform Dashboard</h2>
+        <p id="page-subtitle">Unified Autonomous Revenue & Job Engine • NexxIQ AI</p>
+      </div>
+      <div class="top-actions">
+        <span class="badge badge-green" id="system-status-badge">
+          <div class="status-dot"></div> System Online
+        </span>
+        <button class="btn btn-secondary btn-sm" id="btn-refresh-data">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 21h5v-5"/></svg>
+          Refresh
+        </button>
+        <button class="btn btn-primary btn-sm" id="btn-quick-workflow">
+          ⚡ Quick Run
+        </button>
+      </div>
+    </header>
+
+    <!-- KPI Metric Cards (Visible in Dashboard) -->
+    <section class="kpi-grid" id="kpi-banner">
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span>HIGH-INTENT LEADS</span>
+          <div class="kpi-icon">🎯</div>
+        </div>
+        <div class="kpi-value" id="kpi-leads-count">0</div>
+        <div class="kpi-subtext" id="kpi-leads-sub">Scored across Web, Mobile & SaaS</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span>AI JOBS APPLIED</span>
+          <div class="kpi-icon">💼</div>
+        </div>
+        <div class="kpi-value" id="kpi-jobs-count">50</div>
+        <div class="kpi-subtext">LinkedIn, Indeed & Custom ATS</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span>AVERAGE ATS SCORE</span>
+          <div class="kpi-icon">⚡</div>
+        </div>
+        <div class="kpi-value" id="kpi-ats-score">94%</div>
+        <div class="kpi-subtext">Optimized with Target Keywords</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span>SMTP OUTREACH STATUS</span>
+          <div class="kpi-icon">📬</div>
+        </div>
+        <div class="kpi-value" id="kpi-smtp-status" style="font-size: 22px; color: var(--accent-green);">Active</div>
+        <div class="kpi-subtext" id="kpi-smtp-sub">Rate-Limited Nodemailer Engine</div>
+      </div>
+    </section>
+
+    <!-- VIEW 1: DASHBOARD OVERVIEW -->
+    <section class="view-section active" id="view-dashboard">
+      <div class="card">
+        <div class="card-header">
+          <h3>🚀 NexxIQ AI Platform Overview</h3>
+          <span class="badge badge-indigo">nexxiqai.com</span>
+        </div>
+        <p style="color: var(--text-secondary); margin-bottom: 20px;">
+          Welcome to the <strong>NexxIQ AI Platform</strong>. This system provides autonomous capability across client lead generation, high-frequency job applications, ATS resume optimization, and secure automated cold email dispatch.
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+          <div style="background: rgba(255,255,255,0.02); padding: 18px; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <h4 style="margin-bottom: 8px; color: var(--text-primary);">🎯 Lead Finder & Scoring</h4>
+            <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">Discovers buyer intent across Web Dev, SaaS, Flutter/React Native, and AI Automation with 1-click outreach.</p>
+            <button class="btn btn-outline btn-sm" onclick="app.switchView('leads')">Open Lead Finder →</button>
+          </div>
+
+          <div style="background: rgba(255,255,255,0.02); padding: 18px; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <h4 style="margin-bottom: 8px; color: var(--text-primary);">💼 Multi-Platform Job Submitter</h4>
+            <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">Verified automation for LinkedIn Easy Apply (50 submitted), Indeed, and custom career portals.</p>
+            <button class="btn btn-outline btn-sm" onclick="app.switchView('jobs')">Manage Job Applications →</button>
+          </div>
+
+          <div style="background: rgba(255,255,255,0.02); padding: 18px; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <h4 style="margin-bottom: 8px; color: var(--text-primary);">📄 AI Resume & ATS Enhancer</h4>
+            <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">Analyzes job descriptions, identifies missing keywords, and rewrites bullet points for 95%+ ATS pass rate.</p>
+            <button class="btn btn-outline btn-sm" onclick="app.switchView('resume')">Optimize Resume →</button>
+          </div>
+
+          <div style="background: rgba(255,255,255,0.02); padding: 18px; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <h4 style="margin-bottom: 8px; color: var(--text-primary);">⚡ End-to-End Workflow Pipeline</h4>
+            <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">Connects lead discovery, ATS keyword tailoring, and multi-channel outreach into an automated pipeline.</p>
+            <button class="btn btn-primary btn-sm" onclick="app.switchView('workflow')">Run Unified Workflow →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recent Activity Feed -->
+      <div class="card">
+        <div class="card-header">
+          <h3>📋 Recent Activity & Telemetry</h3>
+          <span class="badge badge-indigo">Live Logs</span>
+        </div>
+        <div class="table-responsive">
+          <table class="custom-table" id="table-activity">
+            <thead>
+              <tr>
+                <th>Event</th>
+                <th>Target</th>
+                <th>Platform / Channel</th>
+                <th>Status</th>
+                <th>Timestamp</th>
+              </tr>
+            </thead>
+            <tbody id="activity-list">
+              <!-- Populated via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: LEAD FINDER -->
+    <section class="view-section" id="view-leads">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>🎯 Client Lead Finder & Intent Scorer</h3>
+            <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Identifies high-value project inquiries and decision-makers</p>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <button class="btn btn-outline btn-sm" id="btn-export-leads">📥 Export CSV</button>
+            <button class="btn btn-primary btn-sm" id="btn-add-lead-modal">+ Add Custom Lead</button>
+          </div>
+        </div>
+
+        <!-- Filter bar -->
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; align-items: center;">
+          <input type="text" class="form-input" id="search-leads-input" placeholder="Search by name, company, skill or requirement..." style="max-width: 320px;" />
+          <select class="form-select" id="filter-lead-category" style="max-width: 200px;">
+            <option value="ALL">All Categories</option>
+            <option value="WEB_DEVELOPMENT">Web Development</option>
+            <option value="MOBILE_APP">Mobile Apps (Flutter/React Native)</option>
+            <option value="SAAS_MVP">SaaS Platforms & MVPs</option>
+            <option value="AI_AUTOMATION">AI Automation & Agents</option>
+            <option value="CUSTOM_SOFTWARE">Custom Software</option>
+          </select>
+          <select class="form-select" id="filter-lead-status" style="max-width: 160px;">
+            <option value="ALL">All Statuses</option>
+            <option value="NEW">New</option>
+            <option value="QUALIFIED">Qualified</option>
+            <option value="CONTACTED">Contacted</option>
+            <option value="CONVERTED">Converted</option>
+          </select>
+          <button class="btn btn-secondary btn-sm" id="btn-apply-lead-filter">Filter</button>
+        </div>
+
+        <!-- Leads Table -->
+        <div class="table-responsive">
+          <table class="custom-table" id="table-leads">
+            <thead>
+              <tr>
+                <th>Lead / Contact</th>
+                <th>Company & Role</th>
+                <th>Category</th>
+                <th>Intent Score</th>
+                <th>Estimated Budget</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="leads-list">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: EMAIL / SMTP HUB -->
+    <section class="view-section" id="view-email">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>📬 Secure SMTP Email Outreach Engine</h3>
+            <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Nodemailer transporter with rate-limited dispatch and template interpolation</p>
+          </div>
+          <button class="btn btn-secondary btn-sm" id="btn-verify-smtp">🔌 Test SMTP Connection</button>
+        </div>
+
+        <div class="ats-split">
+          <!-- Left: Email Composer -->
+          <div>
+            <div class="form-group">
+              <label class="form-label">Outreach Template</label>
+              <select class="form-select" id="composer-template-select">
+                <option value="agency_pitch">Agency & Full-Stack Collaboration Pitch</option>
+                <option value="ai_automation">AI Agents & Autonomous Workflow Pitch</option>
+                <option value="job_application">Direct Job Application & Hiring Manager Outreach</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Recipient Email Address</label>
+              <input type="email" class="form-input" id="composer-to" placeholder="client@company.com" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Recipient Name</label>
+              <input type="text" class="form-input" id="composer-prospect-name" placeholder="Rohit Yadav" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Subject Line</label>
+              <input type="text" class="form-input" id="composer-subject" value="Full-Stack & AI Engineering Synergy — Just Smart IT Solutions" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Email Content Preview</label>
+              <textarea class="form-textarea" id="composer-body" style="height: 180px; font-family: monospace; font-size: 12px;"></textarea>
+            </div>
+
+            <button class="btn btn-primary" id="btn-send-email">🚀 Dispatch Email via SMTP</button>
+          </div>
+
+          <!-- Right: SMTP Status & History -->
+          <div>
+            <div style="background: rgba(255,255,255,0.02); padding: 18px; border-radius: var(--radius-md); border: 1px solid var(--border-color); margin-bottom: 20px;">
+              <h4 style="margin-bottom: 12px; font-size: 15px;">SMTP Server Configuration</h4>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 12px;">
+                <div><span style="color: var(--text-muted);">Host:</span> <strong id="smtp-host-val">smtp.gmail.com</strong></div>
+                <div><span style="color: var(--text-muted);">Port:</span> <strong id="smtp-port-val">587</strong></div>
+                <div><span style="color: var(--text-muted);">User:</span> <strong id="smtp-user-val">syedakbarhashmi519@gmail.com</strong></div>
+                <div><span style="color: var(--text-muted);">Password:</span> <strong id="smtp-pass-val">••••••••</strong></div>
+              </div>
+              <div style="margin-top: 14px; font-size: 11px; color: var(--text-muted);">
+                Credentials managed through <code>.env</code> file (<code>SMTP_USER</code>, <code>SMTP_PASS</code>). Never exposed in client code.
+              </div>
+            </div>
+
+            <h4 style="margin-bottom: 12px; font-size: 15px;">Sent Outbox History</h4>
+            <div class="table-responsive" style="max-height: 280px; overflow-y: auto;">
+              <table class="custom-table" id="table-email-history">
+                <thead>
+                  <tr>
+                    <th>To</th>
+                    <th>Subject</th>
+                    <th>Status</th>
+                    <th>Sent At</th>
+                  </tr>
+                </thead>
+                <tbody id="email-history-list">
+                  <!-- Populated via JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: JOB APPLICATIONS -->
+    <section class="view-section" id="view-jobs">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>💼 Multi-Platform Job Application Engine</h3>
+            <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Automated applications across LinkedIn Easy Apply, Indeed, and Custom Career Sites</p>
+          </div>
+        </div>
+
+        <div class="tab-bar">
+          <button class="tab-btn active" data-jobtab="linkedin">LinkedIn (50 Applied)</button>
+          <button class="tab-btn" data-jobtab="indeed">Indeed Search & Apply</button>
+          <button class="tab-btn" data-jobtab="custom">Custom Career Portals</button>
+        </div>
+
+        <!-- Subtab 1: LinkedIn -->
+        <div id="jobtab-content-linkedin">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+            <p style="font-size: 13px; color: var(--text-secondary);">
+              All <strong>50 applications</strong> successfully submitted and verified on LinkedIn for <strong>Syed Akbar Hashmi</strong>:
+            </p>
+            <div style="display: flex; gap: 8px;">
+              <input type="text" class="form-input" id="harvest-keywords-input" placeholder="AI Native Developer" style="max-width: 220px; font-size: 12px; padding: 6px 10px;" />
+              <button class="btn btn-secondary btn-sm" id="btn-harvest-linkedin">🔍 Scrape New Jobs</button>
+            </div>
+          </div>
+
+          <div class="table-responsive" style="max-height: 480px; overflow-y: auto;">
+            <table class="custom-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Job Title</th>
+                  <th>Company</th>
+                  <th>Status</th>
+                  <th>Applied At</th>
+                  <th>Link</th>
+                </tr>
+              </thead>
+              <tbody id="linkedin-jobs-list">
+                <!-- Dynamically loaded from linkedin-jobs-applied.json -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Subtab 2: Indeed -->
+        <div id="jobtab-content-indeed" style="display: none;">
+          <div style="display: flex; gap: 12px; margin-bottom: 20px;">
+            <input type="text" class="form-input" id="indeed-query-input" placeholder="Role (e.g. AI Native Developer, Python, Next.js)" value="AI Native Developer" style="flex: 2;" />
+            <input type="text" class="form-input" id="indeed-loc-input" placeholder="Location" value="Remote" style="flex: 1;" />
+            <button class="btn btn-primary btn-sm" id="btn-search-indeed">Search Indeed Jobs</button>
+          </div>
+
+          <div class="table-responsive">
+            <table class="custom-table">
+              <thead>
+                <tr>
+                  <th>Job Title</th>
+                  <th>Company</th>
+                  <th>Location</th>
+                  <th>Salary / Match</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="indeed-jobs-list">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Subtab 3: Custom Portals -->
+        <div id="jobtab-content-custom" style="display: none;">
+          <div style="background: rgba(255,255,255,0.02); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-color); margin-bottom: 24px;">
+            <h4 style="margin-bottom: 12px;">Apply to Any Career Link (Greenhouse, Lever, Workday)</h4>
+            <div style="display: flex; gap: 12px;">
+              <input type="url" class="form-input" id="custom-job-url" placeholder="Paste job URL (e.g. https://boards.greenhouse.io/... or https://jobs.lever.co/...)" style="flex: 3;" />
+              <button class="btn btn-secondary btn-sm" id="btn-inspect-custom-url">Inspect ATS Vendor</button>
+              <button class="btn btn-primary btn-sm" id="btn-apply-custom-job">Auto-Apply</button>
+            </div>
+            <div id="custom-job-inspect-result" style="margin-top: 12px; font-size: 13px; color: #a5b4fc; display: none;"></div>
+          </div>
+
+          <h4>Application History across Direct Career Portals</h4>
+          <div class="table-responsive" style="margin-top: 12px;">
+            <table class="custom-table">
+              <thead>
+                <tr>
+                  <th>Job Title</th>
+                  <th>Company</th>
+                  <th>ATS Vendor</th>
+                  <th>Status</th>
+                  <th>Date Applied</th>
+                </tr>
+              </thead>
+              <tbody id="custom-jobs-list">
+                <!-- Populated via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 5: AI RESUME ENHANCER & ATS OPTIMIZER -->
+    <section class="view-section" id="view-resume">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>📄 AI-Powered Resume Enhancer & ATS Optimizer</h3>
+            <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Analyzes resumes against job requirements, computes ATS compatibility scores, and integrates critical keywords</p>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn btn-secondary btn-sm" id="btn-load-sample-jd">Load Sample JD</button>
+            <button class="btn btn-primary btn-sm" id="btn-analyze-resume">🔍 Run ATS Analysis</button>
+            <button class="btn btn-primary btn-sm" id="btn-enhance-resume" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">⚡ 1-Click AI Enhance</button>
+          </div>
+        </div>
+
+        <div class="ats-split">
+          <!-- Left: Input Editors -->
+          <div>
+            <div class="form-group">
+              <label class="form-label">Target Job Description (Paste JD Text)</label>
+              <textarea class="form-textarea" id="input-job-desc" placeholder="Paste target Job Description here..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Current Candidate Resume (Text)</label>
+              <textarea class="form-textarea" id="input-resume-text" placeholder="Paste your resume text here..."></textarea>
+            </div>
+          </div>
+
+          <!-- Right: ATS Diagnostics & Score -->
+          <div>
+            <div class="ats-score-box">
+              <div class="score-circle">
+                <div class="score-num" id="ats-display-score">--</div>
+                <div class="score-label">ATS Score</div>
+              </div>
+              <h4 id="ats-score-headline">Run Analysis to Calculate Match</h4>
+              <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" id="ats-score-subtext">Compares technical taxonomy, action verbs, and quantifiable impact metrics.</p>
+            </div>
+
+            <div style="margin-top: 20px;">
+              <h4 style="font-size: 14px; margin-bottom: 8px;">Matched ATS Keywords (<span id="count-matched">0</span>)</h4>
+              <div class="tags-cloud" id="matched-keywords-cloud">
+                <span style="font-size: 12px; color: var(--text-muted);">None yet</span>
+              </div>
+            </div>
+
+            <div style="margin-top: 20px;">
+              <h4 style="font-size: 14px; margin-bottom: 8px;">Missing Critical Keywords (<span id="count-missing">0</span>)</h4>
+              <div class="tags-cloud" id="missing-keywords-cloud">
+                <span style="font-size: 12px; color: var(--text-muted);">None yet</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Output Enhanced Resume -->
+        <div id="enhanced-resume-container" style="margin-top: 32px; display: none;">
+          <div class="card-header">
+            <h3>✨ AI-Enhanced Resume (ATS-Optimized)</h3>
+            <div style="display: flex; gap: 8px;">
+              <button class="btn btn-outline btn-sm" id="btn-copy-enhanced">📋 Copy to Clipboard</button>
+              <button class="btn btn-secondary btn-sm" id="btn-download-enhanced">💾 Download .txt</button>
+            </div>
+          </div>
+          <textarea class="form-textarea" id="output-enhanced-resume" style="height: 340px; font-family: monospace; font-size: 12px; background: rgba(0,0,0,0.5);"></textarea>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 6: UNIFIED WORKFLOW STUDIO -->
+    <section class="view-section" id="view-workflow">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>⚡ Unified Autonomous Pipeline</h3>
+            <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Connects Lead Discovery, ATS Resume Optimization, Application Submission, and SMTP Outreach</p>
+          </div>
+        </div>
+
+        <!-- Visual Flowchart -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-bottom: 28px;">
+          <div style="background: rgba(99, 102, 241, 0.08); border: 1px solid var(--border-accent); border-radius: var(--radius-md); padding: 16px; text-align: center;">
+            <div style="font-size: 24px; margin-bottom: 6px;">1️⃣</div>
+            <strong>Discovery</strong>
+            <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Leads & AI Jobs extracted across channels</div>
+          </div>
+          <div style="background: rgba(99, 102, 241, 0.08); border: 1px solid var(--border-accent); border-radius: var(--radius-md); padding: 16px; text-align: center;">
+            <div style="font-size: 24px; margin-bottom: 6px;">2️⃣</div>
+            <strong>Analysis & Scoring</strong>
+            <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Requirement parsing & buyer intent evaluation</div>
+          </div>
+          <div style="background: rgba(99, 102, 241, 0.08); border: 1px solid var(--border-accent); border-radius: var(--radius-md); padding: 16px; text-align: center;">
+            <div style="font-size: 24px; margin-bottom: 6px;">3️⃣</div>
+            <strong>ATS & Pitch Synthesis</strong>
+            <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Keyword injection & tailored proposal generation</div>
+          </div>
+          <div style="background: rgba(99, 102, 241, 0.08); border: 1px solid var(--border-accent); border-radius: var(--radius-md); padding: 16px; text-align: center;">
+            <div style="font-size: 24px; margin-bottom: 6px;">4️⃣</div>
+            <strong>Autonomous Dispatch</strong>
+            <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Easy Apply / Indeed / Secure SMTP Outreach</div>
+          </div>
+          <div style="background: rgba(99, 102, 241, 0.08); border: 1px solid var(--border-accent); border-radius: var(--radius-md); padding: 16px; text-align: center;">
+            <div style="font-size: 24px; margin-bottom: 6px;">5️⃣</div>
+            <strong>Telemetry & Logs</strong>
+            <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Persistent audit database & follow-up tracking</div>
+          </div>
+        </div>
+
+        <div class="ats-split">
+          <div>
+            <h4>Launch Automated Pipeline</h4>
+            <div class="form-group" style="margin-top: 14px;">
+              <label class="form-label">Workflow Mode</label>
+              <select class="form-select" id="workflow-mode-select">
+                <option value="lead">Lead Acquisition & SMTP Cold Outreach</option>
+                <option value="job">Job Discovery & ATS-Optimized Application</option>
+              </select>
+            </div>
+
+            <div class="form-group" id="workflow-lead-select-group">
+              <label class="form-label">Target Qualified Lead</label>
+              <select class="form-select" id="workflow-target-lead-select">
+                <!-- Dynamically populated -->
+              </select>
+            </div>
+
+            <div class="form-group" id="workflow-job-platform-group" style="display: none;">
+              <label class="form-label">Job Application Target Platform</label>
+              <select class="form-select" id="workflow-job-platform">
+                <option value="LinkedIn">LinkedIn (Easy Apply)</option>
+                <option value="Indeed">Indeed Verified</option>
+                <option value="Custom">Custom Direct Career Portal</option>
+              </select>
+            </div>
+
+            <button class="btn btn-primary" id="btn-run-unified-workflow">⚡ Execute Autonomous Pipeline</button>
+          </div>
+
+          <!-- Live Progress Checklist -->
+          <div>
+            <h4>Pipeline Execution Status</h4>
+            <div id="workflow-live-progress" style="margin-top: 14px; background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 18px; min-height: 200px;">
+              <p style="font-size: 13px; color: var(--text-muted);">Ready to launch. Click "Execute Autonomous Pipeline" to run.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 7: SETTINGS & SECRETS -->
+    <section class="view-section" id="view-settings">
+      <div class="card">
+        <div class="card-header">
+          <h3>⚙️ System Configuration & Environment Secrets</h3>
+          <span class="badge badge-indigo">Zero Secret Leak Policy</span>
+        </div>
+        <p style="color: var(--text-secondary); margin-bottom: 20px;">
+          All sensitive credentials (API keys, SMTP passwords, session tokens) are strictly loaded from your <code>.env</code> file and masked in public endpoints.
+        </p>
+
+        <div class="table-responsive">
+          <table class="custom-table">
+            <thead>
+              <tr>
+                <th>Configuration Key</th>
+                <th>Role & Description</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>SMTP_USER</code></td>
+                <td>Sender email for SMTP outreach</td>
+                <td><span class="badge badge-green" id="settings-smtp-user-status">Configured</span></td>
+              </tr>
+              <tr>
+                <td><code>SMTP_PASS</code></td>
+                <td>SMTP password / Gmail App Password</td>
+                <td><span class="badge badge-amber" id="settings-smtp-pass-status">Loaded (.env)</span></td>
+              </tr>
+              <tr>
+                <td><code>CDP_URL</code></td>
+                <td>Chrome DevTools Protocol port for live browser automation</td>
+                <td><span class="badge badge-green">127.0.0.1:9222</span></td>
+              </tr>
+              <tr>
+                <td><code>PORT</code></td>
+                <td>Web application server listener</td>
+                <td><span class="badge badge-green">3000</span></td>
+              </tr>
+              <tr>
+                <td><code>PLATFORM_DOMAIN</code></td>
+                <td>NexxIQ AI Platform Domain</td>
+                <td><span class="badge badge-indigo">nexxiqai.com</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Add Lead Modal -->
+  <div class="modal-overlay" id="modal-add-lead">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <h3 style="margin-bottom: 16px;">Add New Prospect Lead</h3>
+      <div class="form-group">
+        <label class="form-label">Prospect Name</label>
+        <input type="text" class="form-input" id="newlead-name" placeholder="Full Name" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Company & Title</label>
+        <input type="text" class="form-input" id="newlead-company" placeholder="Company Name" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email Address</label>
+        <input type="email" class="form-input" id="newlead-email" placeholder="email@company.com" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Category</label>
+        <select class="form-select" id="newlead-category">
+          <option value="WEB_DEVELOPMENT">Web Development</option>
+          <option value="MOBILE_APP">Mobile App</option>
+          <option value="SAAS_MVP">SaaS MVP</option>
+          <option value="AI_AUTOMATION">AI Automation</option>
+          <option value="CUSTOM_SOFTWARE">Custom Software</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Project Details / Notes</label>
+        <textarea class="form-textarea" id="newlead-notes" placeholder="Describe client requirements..." style="height: 80px;"></textarea>
+      </div>
+      <button class="btn btn-primary" id="btn-save-new-lead" style="width: 100%;">Save Lead</button>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Main JavaScript App -->
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "email_1792676258332_jwym5",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "messageId": "<b896fe9f-1f76-176b-73f6-f1c20777d4d4@wavcabs.com.au>",
+    "status": "SENT",
+    "sentAt": "2026-10-22T13:37:38.332Z",
+    "durationMs": 3491,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792676254839_qz3g",
+      "leadId": "lead_nexx_101"
+    }
+  },
+  {
+    "id": "email_1792675932507_wcl0m",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "messageId": "<1e7e853c-4859-3bb8-451e-394d7408235f@wavcabs.com.au>",
+    "status": "SENT",
+    "sentAt": "2026-10-22T13:32:12.507Z",
+    "durationMs": 4879,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792675927624_0gjq",
+      "leadId": "lead_nexx_101"
+    }
+  },
+  {
+    "id": "email_1792675894185_k2ufg",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "messageId": "<dd0a3c0c-9889-447d-0f56-24775897674d@wavcabs.com.au>",
+    "status": "SENT",
+    "sentAt": "2026-10-22T13:31:34.185Z",
+    "durationMs": 3700,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792675890483_w7mt",
+      "leadId": "lead_nexx_101"
+    }
+  },
+  {
+    "id": "email_1792674940048_t500o",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "messageId": "<bf61040c-6b05-6f0a-911c-512f141262d3@wavcabs.com.au>",
+    "status": "SENT",
+    "sentAt": "2026-10-22T13:15:40.048Z",
+    "durationMs": 3072,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792674936974_hdba",
+      "leadId": "lead_nexx_101"
+    }
+  },
+  {
+    "id": "email_1792674906324_7ems3",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "messageId": "<b78d560c-01e0-0a5e-5645-c9b24154c580@wavcabs.com.au>",
+    "status": "SENT",
+    "sentAt": "2026-10-22T13:15:06.324Z",
+    "durationMs": 5366,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792674900956_2dcb",
+      "leadId": "lead_nexx_101"
+    }
+  }
+]

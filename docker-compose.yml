@@ -1,0 +1,26 @@
+services:
+  nexxiq-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nexxiq-ai-platform:latest
+    container_name: nexxiq_ai_platform
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOST=0.0.0.0
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

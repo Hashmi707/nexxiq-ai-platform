@@ -1,0 +1,52 @@
+[
+  {
+    "jobKey": "ind_test_pipeline_01",
+    "title": "AI Engineer",
+    "company": "Indeed Verified Employer",
+    "location": "Remote",
+    "url": "https://www.indeed.com/viewjob?jk=ind_test_pipeline_01",
+    "platform": "Indeed",
+    "status": "APPLIED",
+    "appliedAt": "2026-10-22T13:37:38.804Z",
+    "applicant": "Syed Akbar Hashmi"
+  },
+  {
+    "jobKey": "ind_88192a7c",
+    "title": "Senior AI Full Stack Engineer (Remote)",
+    "company": "Hyperion Intelligence",
+    "location": "Remote",
+    "salary": "$120,000 - $160,000 / year",
+    "url": "https://www.indeed.com/viewjob?jk=ind_88192a7c",
+    "platform": "Indeed",
+    "status": "APPLIED",
+    "matchScore": 94,
+    "appliedAt": "2026-10-22T05:15:00.932Z",
+    "snippet": "Looking for an AI Native engineer proficient in Next.js, FastAPI, LangChain, and autonomous agents."
+  },
+  {
+    "jobKey": "ind_9921b33f",
+    "title": "Gen AI & Automation Developer",
+    "company": "Veritas AI Solutions",
+    "location": "Remote",
+    "salary": "$110,000 - $145,000 / year",
+    "url": "https://www.indeed.com/viewjob?jk=ind_9921b33f",
+    "platform": "Indeed",
+    "status": "APPLIED",
+    "matchScore": 91,
+    "appliedAt": "2026-10-21T19:15:00.932Z",
+    "snippet": "Develop production LLM workflows, browser automation routines, and RESTful APIs."
+  },
+  {
+    "jobKey": "ind_7743c11e",
+    "title": "Python / AI Application Developer",
+    "company": "Aether Dynamics",
+    "location": "Remote",
+    "salary": "$130,000 - $175,000 / year",
+    "url": "https://www.indeed.com/viewjob?jk=ind_7743c11e",
+    "platform": "Indeed",
+    "status": "DISCOVERED",
+    "matchScore": 88,
+    "appliedAt": null,
+    "snippet": "Architect scalable backend services, integrate AI models, and optimize PostgreSQL databases."
+  }
+]

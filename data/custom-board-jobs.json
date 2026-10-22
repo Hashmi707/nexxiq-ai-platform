@@ -1,0 +1,24 @@
+[
+  {
+    "id": "custom_gh_901",
+    "title": "Staff AI Engineer (Founding Track)",
+    "company": "Anthropic Partner Network",
+    "boardType": "Greenhouse",
+    "url": "https://boards.greenhouse.io/demo/jobs/901",
+    "status": "APPLIED",
+    "matchScore": 97,
+    "appliedAt": "2026-10-21T17:15:00.934Z",
+    "notes": "Direct career portal submission with tailored ATS resume and portfolio link."
+  },
+  {
+    "id": "custom_lev_902",
+    "title": "Lead Autonomous Systems Developer",
+    "company": "Cognition Labs Ecosystem",
+    "boardType": "Lever",
+    "url": "https://jobs.lever.co/demo/jobs/902",
+    "status": "APPLIED",
+    "matchScore": 95,
+    "appliedAt": "2026-10-21T23:15:00.934Z",
+    "notes": "Submitted via Lever form handler. 4+ years full-stack and AI automation experience."
+  }
+]

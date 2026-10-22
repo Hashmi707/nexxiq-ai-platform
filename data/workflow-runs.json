@@ -1,0 +1,417 @@
+[
+  {
+    "runId": "wf_job_1792676258802_cqvk",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-22T13:37:38.804Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 2,
+    "completedAt": "2026-10-22T13:37:38.804Z"
+  },
+  {
+    "runId": "wf_lead_1792676254839_qz3g",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_nexx_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "messageId": "<b896fe9f-1f76-176b-73f6-f1c20777d4d4@wavcabs.com.au>",
+          "status": "SENT",
+          "to": "info@techyappy.com",
+          "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 3961,
+    "completedAt": "2026-10-22T13:37:38.800Z"
+  },
+  {
+    "runId": "wf_job_1792675932535_5mje",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-22T13:32:12.537Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 3,
+    "completedAt": "2026-10-22T13:32:12.538Z"
+  },
+  {
+    "runId": "wf_lead_1792675927624_0gjq",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_nexx_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "messageId": "<1e7e853c-4859-3bb8-451e-394d7408235f@wavcabs.com.au>",
+          "status": "SENT",
+          "to": "info@techyappy.com",
+          "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 4909,
+    "completedAt": "2026-10-22T13:32:12.533Z"
+  },
+  {
+    "runId": "wf_job_1792675894342_bfss",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-22T13:31:34.344Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 3,
+    "completedAt": "2026-10-22T13:31:34.345Z"
+  },
+  {
+    "runId": "wf_lead_1792675890483_w7mt",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_nexx_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "messageId": "<dd0a3c0c-9889-447d-0f56-24775897674d@wavcabs.com.au>",
+          "status": "SENT",
+          "to": "info@techyappy.com",
+          "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 3857,
+    "completedAt": "2026-10-22T13:31:34.340Z"
+  },
+  {
+    "runId": "wf_job_1792674940070_98tp",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-22T13:15:40.072Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 2,
+    "completedAt": "2026-10-22T13:15:40.072Z"
+  },
+  {
+    "runId": "wf_lead_1792674936974_hdba",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_nexx_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "messageId": "<bf61040c-6b05-6f0a-911c-512f141262d3@wavcabs.com.au>",
+          "status": "SENT",
+          "to": "info@techyappy.com",
+          "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 3094,
+    "completedAt": "2026-10-22T13:15:40.068Z"
+  },
+  {
+    "runId": "wf_job_1792674906465_343j",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 77,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 55,
+        "projectedAtsScore": 77,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-22T13:15:06.467Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 3,
+    "completedAt": "2026-10-22T13:15:06.468Z"
+  },
+  {
+    "runId": "wf_lead_1792674900956_2dcb",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_nexx_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "messageId": "<b78d560c-01e0-0a5e-5645-c9b24154c580@wavcabs.com.au>",
+          "status": "SENT",
+          "to": "info@techyappy.com",
+          "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 5509,
+    "completedAt": "2026-10-22T13:15:06.465Z"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "lead_nexx_101",
+    "name": "Rohit Yadav",
+    "company": "TechYappy Media",
+    "role": "Founder & CTO",
+    "email": "info@techyappy.com",
+    "linkedinUrl": "https://www.linkedin.com/in/rohit-yadav-4a88ba440/",
+    "source": "LinkedIn",
+    "category": "WEB_DEVELOPMENT",
+    "score": 95,
+    "budgetEstimate": "$3,000 - $7,000",
+    "status": "CONTACTED",
+    "notes": "Needs responsive web application, high-converting landing pages, and SaaS architecture.\n[Update 23/10/2026]: Outreach sent via agency_pitch at 12:15:06 am\n[Update 23/10/2026]: Outreach sent via agency_pitch at 12:15:40 am\n[Update 23/10/2026]: Outreach sent via agency_pitch at 12:31:34 am\n[Update 23/10/2026]: Outreach sent via agency_pitch at 12:32:12 am\n[Update 23/10/2026]: Outreach sent via agency_pitch at 12:37:38 am",
+    "detectedKeywords": [
+      "Next.js",
+      "SaaS MVP",
+      "React",
+      "Mobile App"
+    ],
+    "lastContactedAt": "2026-10-22T13:37:38.799Z",
+    "createdAt": "2026-10-20T13:14:59.367Z"
+  },
+  {
+    "id": "lead_nexx_102",
+    "name": "Muhammad Haris",
+    "company": "Apex Growth Ventures",
+    "role": "Managing Director",
+    "email": "m.haris@apexgrowth.io",
+    "linkedinUrl": "https://www.linkedin.com/in/muhammad-haris-125941394/",
+    "source": "LinkedIn",
+    "category": "SAAS_MVP",
+    "score": 92,
+    "budgetEstimate": "$5,000 - $12,000",
+    "status": "CONTACTED",
+    "notes": "Seeking full-stack team to build multi-tenant analytics SaaS with Stripe payments.",
+    "detectedKeywords": [
+      "Multi-tenant",
+      "Stripe",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "lastContactedAt": "2026-10-22T07:14:59.367Z",
+    "createdAt": "2026-10-19T13:14:59.367Z"
+  },
+  {
+    "id": "lead_nexx_103",
+    "name": "Hitesh Prajapat",
+    "company": "OmniHealth Labs",
+    "role": "Head of Digital Products",
+    "email": "hitesh@omnihealth.tech",
+    "linkedinUrl": "https://www.linkedin.com/in/hitesh-prajapat-29bb7a419/",
+    "source": "LinkedIn",
+    "category": "MOBILE_APP",
+    "score": 89,
+    "budgetEstimate": "$8,000 - $15,000",
+    "status": "CONTACTED",
+    "notes": "Looking for Flutter cross-platform mobile developer with offline sync capabilities.",
+    "detectedKeywords": [
+      "Flutter",
+      "Cross-Platform",
+      "iOS",
+      "Android",
+      "BLE"
+    ],
+    "lastContactedAt": "2026-10-22T08:14:59.367Z",
+    "createdAt": "2026-10-19T13:14:59.367Z"
+  },
+  {
+    "id": "lead_nexx_104",
+    "name": "Elena Rostova",
+    "company": "ScaleFlow Enterprise",
+    "role": "VP of Engineering",
+    "email": "elena@scaleflow.ai",
+    "linkedinUrl": "https://www.linkedin.com/in/elena-rostova-ai",
+    "source": "Web",
+    "category": "AI_AUTOMATION",
+    "score": 98,
+    "budgetEstimate": "$15,000 - $35,000",
+    "status": "QUALIFIED",
+    "notes": "Autonomous agent pipeline to extract data, automate back-office operations, and connect to CRM.",
+    "detectedKeywords": [
+      "Autonomous Agents",
+      "LLM",
+      "CDP Browser Automation",
+      "Python",
+      "FastAPI"
+    ],
+    "lastContactedAt": null,
+    "createdAt": "2026-10-22T01:14:59.367Z"
+  },
+  {
+    "id": "lead_nexx_105",
+    "name": "David Chen",
+    "company": "QuantumLogix Systems",
+    "role": "Co-Founder",
+    "email": "david.chen@quantumlogix.co",
+    "linkedinUrl": "https://www.linkedin.com/in/david-chen-ql",
+    "source": "Threads",
+    "category": "CUSTOM_SOFTWARE",
+    "score": 88,
+    "budgetEstimate": "$6,000 - $14,000",
+    "status": "NEW",
+    "notes": "Rebuilding legacy inventory portal into modern React + Node cloud microservices.",
+    "detectedKeywords": [
+      "Portal",
+      "Database Migration",
+      "REST API",
+      "Docker"
+    ],
+    "lastContactedAt": null,
+    "createdAt": "2026-10-22T11:14:59.367Z"
+  }
+]
