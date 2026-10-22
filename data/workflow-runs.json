@@ -1,5 +1,88 @@
 [
   {
+    "runId": "wf_job_1792677637554_eec6",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-22T14:00:37.556Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 3,
+    "completedAt": "2026-10-22T14:00:37.557Z"
+  },
+  {
+    "runId": "wf_lead_1792677633995_q159",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_nexx_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "messageId": "<ed606b82-427e-93e1-8264-31c76dea1980@wavcabs.com.au>",
+          "status": "SENT",
+          "to": "info@techyappy.com",
+          "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 3556,
+    "completedAt": "2026-10-22T14:00:37.551Z"
+  },
+  {
     "runId": "wf_job_1792676258802_cqvk",
     "type": "JOB_APPLICATION",
     "platform": "Indeed",

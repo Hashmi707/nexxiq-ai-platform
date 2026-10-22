@@ -1,5 +1,19 @@
 [
   {
+    "id": "email_1792677637523_f8mzs",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "messageId": "<ed606b82-427e-93e1-8264-31c76dea1980@wavcabs.com.au>",
+    "status": "SENT",
+    "sentAt": "2026-10-22T14:00:37.523Z",
+    "durationMs": 3526,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792677633995_q159",
+      "leadId": "lead_nexx_101"
+    }
+  },
+  {
     "id": "email_1792676258332_jwym5",
     "to": "info@techyappy.com",
     "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",

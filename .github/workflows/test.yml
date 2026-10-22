@@ -14,23 +14,28 @@ jobs:
         with:
           node-version: 22
       - run: npm install
+      - name: NexxIQ Platform Tests
+        run: npm run test:nexxiq
       - name: Agentic architecture and onboarding tests
         run: npm run test:agentic
       - name: Syntax validation
         run: |
           node --check threads-agent.js
           node --check agentic-social.js
+          node --check src/server.js
+          node --check src/api/routes.js
           node --check src/agent/universal-browser-agent.js
           node --check src/agent/visual-fallback.js
           node --check src/agentic/next-best-action.js
-          node --check src/leads/relationship-engine.js
-          node --check src/leads/intelligent-identity-resolver.js
+          node --check src/leads/lead-engine.js
+          node --check src/email/smtp-service.js
+          node --check src/resume/resume-enhancer.js
+          node --check src/orchestrator/unified-workflow.js
           node --check src/safety/global-guard.js
           node --check src/safety/social-action-policy.js
           node --check src/social/agentic-social-runner.js
           node --check src/content/omnichannel-content.js
           node --check src/ai/ai-runtime.js
-          node --check src/ai/antigravity-cli-runtime.js
           node --check scripts/launch-browser-cdp.js
           node --check scripts/android-chrome-cdp.js
       - name: Dependency audit
