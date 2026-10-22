@@ -60,7 +60,7 @@ async function runFacebookTests() {
       text: "Can someone recommend a developer or dev team for an MVP web app?",
       platform: "facebook"
     };
-    const commentText = "We build custom web applications and MVPs. Feel free to explore our work at codeair.tech.";
+    const commentText = "We build custom web applications and MVPs. Feel free to explore our work at syed-akber-hashmi-v2.vercel.app.";
 
     const res = await facebookActions.postComment(testPost, commentText, { dryRun: true });
     assert.strictEqual(res.success, true, "Dry-run comment must succeed");

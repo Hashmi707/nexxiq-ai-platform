@@ -1,5 +1,88 @@
 [
   {
+    "runId": "wf_job_1792680658694_cstt",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-22T14:50:58.696Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 2,
+    "completedAt": "2026-10-22T14:50:58.696Z"
+  },
+  {
+    "runId": "wf_lead_1792680653618_dbw4",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_agnt_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "messageId": "<b8e0de05-be35-9791-ed0b-effd846cb979@wavcabs.com.au>",
+          "status": "SENT",
+          "to": "info@techyappy.com",
+          "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 5074,
+    "completedAt": "2026-10-22T14:50:58.692Z"
+  },
+  {
     "runId": "wf_job_1792679641822_v6l0",
     "type": "JOB_APPLICATION",
     "platform": "Indeed",
@@ -67,7 +150,7 @@
         "status": "SUCCESS",
         "result": {
           "success": true,
-          "messageId": "<a2f4d262-ac95-a59d-4da1-8586b9a71739@wavcabs.com.au>",
+          "messageId": "<a2f4d262-ac95-a59d-4da1-8586b9a71739@mail.example.com>",
           "status": "SENT",
           "to": "info@techyappy.com",
           "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
@@ -150,7 +233,7 @@
         "status": "SUCCESS",
         "result": {
           "success": true,
-          "messageId": "<98f9eed9-3979-05b3-9910-ce9453d4ecbc@wavcabs.com.au>",
+          "messageId": "<98f9eed9-3979-05b3-9910-ce9453d4ecbc@mail.example.com>",
           "status": "SENT",
           "to": "info@techyappy.com",
           "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
@@ -283,7 +366,7 @@
         "status": "SUCCESS",
         "result": {
           "success": true,
-          "messageId": "<58ed0a8b-c992-f23a-29f8-98385b70137d@wavcabs.com.au>",
+          "messageId": "<58ed0a8b-c992-f23a-29f8-98385b70137d@mail.example.com>",
           "status": "SENT",
           "to": "info@techyappy.com",
           "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
@@ -366,7 +449,7 @@
         "status": "SUCCESS",
         "result": {
           "success": true,
-          "messageId": "<ed606b82-427e-93e1-8264-31c76dea1980@wavcabs.com.au>",
+          "messageId": "<ed606b82-427e-93e1-8264-31c76dea1980@mail.example.com>",
           "status": "SENT",
           "to": "info@techyappy.com",
           "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
@@ -449,7 +532,7 @@
         "status": "SUCCESS",
         "result": {
           "success": true,
-          "messageId": "<b896fe9f-1f76-176b-73f6-f1c20777d4d4@wavcabs.com.au>",
+          "messageId": "<b896fe9f-1f76-176b-73f6-f1c20777d4d4@mail.example.com>",
           "status": "SENT",
           "to": "info@techyappy.com",
           "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
@@ -532,7 +615,7 @@
         "status": "SUCCESS",
         "result": {
           "success": true,
-          "messageId": "<1e7e853c-4859-3bb8-451e-394d7408235f@wavcabs.com.au>",
+          "messageId": "<1e7e853c-4859-3bb8-451e-394d7408235f@mail.example.com>",
           "status": "SENT",
           "to": "info@techyappy.com",
           "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
@@ -615,7 +698,7 @@
         "status": "SUCCESS",
         "result": {
           "success": true,
-          "messageId": "<dd0a3c0c-9889-447d-0f56-24775897674d@wavcabs.com.au>",
+          "messageId": "<dd0a3c0c-9889-447d-0f56-24775897674d@mail.example.com>",
           "status": "SENT",
           "to": "info@techyappy.com",
           "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
@@ -698,7 +781,7 @@
         "status": "SUCCESS",
         "result": {
           "success": true,
-          "messageId": "<bf61040c-6b05-6f0a-911c-512f141262d3@wavcabs.com.au>",
+          "messageId": "<bf61040c-6b05-6f0a-911c-512f141262d3@mail.example.com>",
           "status": "SENT",
           "to": "info@techyappy.com",
           "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"
@@ -781,7 +864,7 @@
         "status": "SUCCESS",
         "result": {
           "success": true,
-          "messageId": "<b78d560c-01e0-0a5e-5645-c9b24154c580@wavcabs.com.au>",
+          "messageId": "<b78d560c-01e0-0a5e-5645-c9b24154c580@mail.example.com>",
           "status": "SENT",
           "to": "info@techyappy.com",
           "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media"

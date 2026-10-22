@@ -138,7 +138,7 @@ class CustomBoardEngine {
     const candidate = {
       fullName: candidateProfile.fullName || "Syed Akbar Hashmi",
       email: candidateProfile.email || "syedakbarhashmi519@gmail.com",
-      phone: candidateProfile.phone || "6305700963",
+      phone: candidateProfile.phone || process.env.CANDIDATE_PHONE || "",
       portfolioUrl: candidateProfile.portfolioUrl || "https://syed-akber-hashmi-v2.vercel.app/",
       linkedinUrl: candidateProfile.linkedinUrl || "https://www.linkedin.com/in/syed-akbar-hashmi",
       experienceYears: "4",

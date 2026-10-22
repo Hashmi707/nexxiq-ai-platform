@@ -3,7 +3,7 @@
  * Ultra-clean, Stripe/x.ai/Linear/PayPal grade graphic renderer.
  * Generates 1080x1080 dark-mode social media cards & carousel slides.
  * Uses official CodeAir brand icon and authentic websites:
- * - CodeAir Software Solutions: www.codeair.tech
+ * - Agentic Social AI: https://syed-akber-hashmi-v2.vercel.app/
  * - PixelGo HMS: pixelgo.live
  */
 

@@ -144,12 +144,12 @@ CANDIDATE_PORTFOLIO="https://syed-akber-hashmi-v2.vercel.app/"
 COMPANY_NAME="Agentic Social AI"
 
 # SMTP Settings
-SMTP_HOST=mail.wavcabs.com.au
-SMTP_PORT=465
-SMTP_SECURE=true
-SMTP_USER=info@wavcabs.com.au
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=your_email@gmail.com
 SMTP_PASS=your_smtp_password
-EMAIL_FROM="Syed Akbar Hashmi <info@wavcabs.com.au>"
+EMAIL_FROM="Syed Akbar Hashmi <syedakbarhashmi519@gmail.com>"
 ```
 
 ### 3. Run the Platform

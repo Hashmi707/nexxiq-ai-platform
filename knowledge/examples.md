@@ -14,7 +14,7 @@ Classification:
 
 BUYER
 
-CodeAir Match:
+Agentic Social AI Match:
 
 YES
 
@@ -40,7 +40,7 @@ Classification:
 
 BUYER
 
-CodeAir Match:
+Agentic Social AI Match:
 
 YES
 
@@ -54,7 +54,7 @@ Response:
 
 If appropriate later:
 
-"That's the kind of SaaS development we handle at CodeAir."
+"That's the kind of SaaS development we handle at Agentic Social AI."
 
 ---
 
@@ -68,7 +68,7 @@ Classification:
 
 BUYER
 
-CodeAir Match:
+Agentic Social AI Match:
 
 YES
 
@@ -82,7 +82,7 @@ Initial response:
 
 Later:
 
-"That sounds like a potential fit for AI workflow automation. That's an area we work on at CodeAir."
+"That sounds like a potential fit for AI workflow automation. That's an area we work on at Agentic Social AI."
 
 ---
 
@@ -96,7 +96,7 @@ Classification:
 
 RECRUITER
 
-CodeAir Lead:
+Agentic Social AI Lead:
 
 NO
 
@@ -104,7 +104,7 @@ Action:
 
 IGNORE
 
-Do not pitch CodeAir.
+Do not pitch Agentic Social AI.
 
 ---
 
@@ -118,7 +118,7 @@ Classification:
 
 JOB_SEEKER
 
-CodeAir Lead:
+Agentic Social AI Lead:
 
 NO
 
@@ -138,7 +138,7 @@ Classification:
 
 PROVIDER
 
-CodeAir Lead:
+Agentic Social AI Lead:
 
 NO
 
@@ -158,7 +158,7 @@ Classification:
 
 BUYER
 
-CodeAir Match:
+Agentic Social AI Match:
 
 NO
 
@@ -168,7 +168,7 @@ IGNORE
 
 Reason:
 
-The requirement is pure graphic/branding work and does not match the approved CodeAir software service catalogue.
+The requirement is pure graphic/branding work and does not match the approved Agentic Social AI software service catalogue.
 
 ---
 
@@ -182,7 +182,7 @@ Classification:
 
 BUYER
 
-CodeAir Match:
+Agentic Social AI Match:
 
 YES
 
@@ -200,7 +200,7 @@ Initial response:
 
 Person:
 
-"Who is behind CodeAir?"
+"Who is behind Agentic Social AI?"
 
 Classification:
 
@@ -212,7 +212,7 @@ FOUNDER
 
 Response:
 
-"I'm the founder behind CodeAir Software Solutions. We work on custom software, SaaS, AI systems and business automation."
+"I'm the founder behind Agentic Social AI. We work on custom software, SaaS, AI systems and business automation."
 
 ---
 
@@ -232,7 +232,7 @@ FOUNDER
 
 Response:
 
-"Sure. I'm the founder behind CodeAir. Tell me a little about what you're building and I'll understand the requirement first."
+"Sure. I'm the founder behind Agentic Social AI. Tell me a little about what you're building and I'll understand the requirement first."
 
 ---
 
@@ -240,7 +240,7 @@ Response:
 
 Person:
 
-"What does CodeAir do?"
+"What does Agentic Social AI do?"
 
 Classification:
 
@@ -276,7 +276,7 @@ Response:
 
 "Multi-tenancy strategy depends heavily on isolation, scale and operational requirements. Are you considering a shared database with tenant isolation, or separate databases per tenant?"
 
-Do not mention CodeAir unless the conversation naturally becomes relevant.
+Do not mention Agentic Social AI unless the conversation naturally becomes relevant.
 
 ---
 
@@ -290,7 +290,7 @@ Classification:
 
 BUYER
 
-CodeAir Match:
+Agentic Social AI Match:
 
 YES
 
@@ -304,7 +304,7 @@ Response:
 
 After requirement discovery:
 
-"That's the kind of SaaS/backend work we handle at CodeAir."
+"That's the kind of SaaS/backend work we handle at Agentic Social AI."
 
 ---
 
@@ -320,7 +320,7 @@ Correct:
 
 Incorrect:
 
-"I'm the founder of CodeAir and we can build this for you."
+"I'm the founder of Agentic Social AI and we can build this for you."
 
 Reason:
 
@@ -336,7 +336,7 @@ Person:
 
 If founder is actually available:
 
-"I'm the founder behind CodeAir, and I can discuss the architecture with you. Tell me a little about your current system first."
+"I'm the founder behind Agentic Social AI, and I can discuss the architecture with you. Tell me a little about your current system first."
 
 ---
 
@@ -352,7 +352,7 @@ BOTH
 
 Response:
 
-"CodeAir Software Solutions is a software and technology company focused on custom software, SaaS, AI and business automation. I'm the founder behind the company."
+"Agentic Social AI is a software and technology company focused on custom software, SaaS, AI and business automation. I'm the founder behind the company."
 
 ---
 
@@ -432,7 +432,7 @@ Classification:
 
 BUYER
 
-CodeAir Match:
+Agentic Social AI Match:
 
 YES
 
@@ -456,7 +456,7 @@ Classification:
 
 BUYER
 
-CodeAir Match:
+Agentic Social AI Match:
 
 YES
 
@@ -480,7 +480,7 @@ Classification:
 
 BUYER
 
-CodeAir Match:
+Agentic Social AI Match:
 
 YES
 

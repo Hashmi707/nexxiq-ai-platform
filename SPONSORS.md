@@ -1,8 +1,8 @@
-# Sponsoring Meta Automation & CodeAir Software Solutions
+# Sponsoring Agentic Social & Client Finder AI
 
-Thank you for considering sponsoring **Meta Automation**!
+Thank you for considering sponsoring **Agentic Social & Client Finder AI**!
 
-**Meta Automation** is an autonomous, production-grade social growth, lead generation, and conversation engine crafted by **[CodeAir Software Solutions](https://www.codeair.tech)** and led by **[Sunmughan Swamy](https://github.com/sunmughan)**.
+**Agentic Social & Client Finder AI** is an autonomous, production-grade social growth, lead generation, and job application engine created by **[Syed Akbar Hashmi](https://syed-akber-hashmi-v2.vercel.app/)** and powered by **Agentic Social AI**.
 
 ---
 
@@ -11,22 +11,19 @@ Thank you for considering sponsoring **Meta Automation**!
 By sponsoring this project, you directly support:
 - Continuous improvements to autonomous social intelligence, anti-bot stealth safeguards, and AI intent classification.
 - Maintenance of open-source automation tools, CDP drivers, and headless browser workflows.
-- Integration of cutting-edge models (Gemini 2.5/3.0, Claude 3.7, Local Ollama/DeepSeek) into real-world autonomous business software.
-- High-fidelity graphic generation engines (Linear/Stripe-grade HTML carousels and brand cards).
+- Integration of cutting-edge models (Gemini Flash, Claude, DeepSeek) into real-world autonomous business software.
+- High-fidelity graphic generation engines and resume ATS optimization.
 
 ---
 
-## Sponsorship Channels
+## Sponsorship & Collaboration Channels
 
-### 1. GitHub Sponsors
-Sponsor directly through GitHub to support active core development:
-- **[GitHub Sponsors - @sunmughan](https://github.com/sponsors/sunmughan)**
-
-### 2. Direct Enterprise Sponsorship & Custom Solutions
-For custom enterprise deployments, dedicated agent customization, CRM integrations, or white-label solutions:
-- **Website:** [www.codeair.tech](https://www.codeair.tech)
-- **Direct Contact:** [contact@codeair.tech](mailto:contact@codeair.tech)
-- **Featured Product:** [PixelGo HMS (Hospital Management System)](https://pixelgo.live)
+### 1. Developer Portfolio & Direct Contact
+For custom enterprise deployments, dedicated agent customization, CRM integrations, or software engineering:
+- **Portfolio:** [https://syed-akber-hashmi-v2.vercel.app/](https://syed-akber-hashmi-v2.vercel.app/)
+- **LinkedIn:** [https://www.linkedin.com/in/syed-akbar-hashmi](https://www.linkedin.com/in/syed-akbar-hashmi)
+- **Direct Contact:** [syedakbarhashmi519@gmail.com](mailto:syedakbarhashmi519@gmail.com)
+- **GitHub Repository:** [https://github.com/Hashmi707/nexxiq-ai-platform](https://github.com/Hashmi707/nexxiq-ai-platform)
 
 ---
 
@@ -34,11 +31,11 @@ For custom enterprise deployments, dedicated agent customization, CRM integratio
 
 | Tier | Name | Benefits |
 |---|---|---|
-| **$10/mo** | **Backer** | Recognition in README Backers section & project Discord badge. |
+| **$10/mo** | **Backer** | Recognition in README Backers section & project supporter list. |
 | **$50/mo** | **Pro Builder** | Priority issue triage & early access to feature branches and prompt libraries. |
-| **$250/mo** | **Enterprise Supporter** | Logo placement on README & website + direct technical consultation channel. |
+| **$250/mo** | **Enterprise Supporter** | Logo placement on README & direct technical consultation channel. |
 | **$1,000/mo** | **Custom Automation Partner** | Dedicated monthly roadmap alignment, custom platform adapter engineering, and SLA. |
 
 ---
 
-*Crafted with precision by [CodeAir Software Solutions](https://www.codeair.tech).*
+*Crafted with precision by [Syed Akbar Hashmi](https://syed-akber-hashmi-v2.vercel.app/).*

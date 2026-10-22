@@ -128,7 +128,7 @@ class ResumeEnhancer {
     const enhancedResume = `
 ================================================================================
 ${candidateName.toUpperCase()} — ${targetRole.toUpperCase()}
-Portfolio: https://syed-akber-hashmi-v2.vercel.app/ | Email: syedakbarhashmi519@gmail.com | Phone: +91 6305700963
+Portfolio: https://syed-akber-hashmi-v2.vercel.app/ | Email: syedakbarhashmi519@gmail.com | LinkedIn: https://www.linkedin.com/in/syed-akbar-hashmi
 ================================================================================
 
 PROFESSIONAL SUMMARY

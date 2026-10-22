@@ -26,7 +26,7 @@ Requirements:
     this.sampleResume = `
 Syed Akbar Hashmi
 AI Native Full Stack Developer | Agentic Social & Client Finder
-Email: syedakbarhashmi519@gmail.com | Phone: +91 6305700963 | Location: India (Remote)
+Email: syedakbarhashmi519@gmail.com | Portfolio: https://syed-akber-hashmi-v2.vercel.app/ | Location: India (Remote)
 Portfolio: https://syed-akber-hashmi-v2.vercel.app/ | LinkedIn: https://www.linkedin.com/in/syed-akbar-hashmi
 
 SUMMARY
@@ -257,7 +257,7 @@ Bachelor of Technology in Computer Science & Engineering
     const bodyEl = document.getElementById("composer-body");
 
     if (template === "agency_pitch") {
-      bodyEl.value = `Hello ${name},\n\nI am Syed Akbar Hashmi, AI Native Full Stack Developer and creator of Agentic Social & Client Finder (https://syed-akber-hashmi-v2.vercel.app/).\n\nWe engineer full-lifecycle web platforms, cross-platform mobile apps (Flutter & React Native), SaaS MVPs, and custom AI automation.\n\nExplore our live technical portfolio: https://syed-akber-hashmi-v2.vercel.app/\n\nWould you be open to a 10-minute introductory conversation this week?\n\nBest regards,\nSyed Akbar Hashmi\nsyedakbarhashmi519@gmail.com | +91 6305700963`;
+      bodyEl.value = `Hello ${name},\n\nI am Syed Akbar Hashmi, AI Native Full Stack Developer and creator of Agentic Social & Client Finder (https://syed-akber-hashmi-v2.vercel.app/).\n\nWe engineer full-lifecycle web platforms, cross-platform mobile apps (Flutter & React Native), SaaS MVPs, and custom AI automation.\n\nExplore our live technical portfolio: https://syed-akber-hashmi-v2.vercel.app/\n\nWould you be open to a 10-minute introductory conversation this week?\n\nBest regards,\nSyed Akbar Hashmi\nsyedakbarhashmi519@gmail.com | https://syed-akber-hashmi-v2.vercel.app/`;
     } else if (template === "ai_automation") {
       bodyEl.value = `Hi ${name},\n\nThrough Agentic Social & Client Finder (https://syed-akber-hashmi-v2.vercel.app/), we engineer bespoke autonomous workflows and AI agents that automate repetitive business tasks.\n\nLive Proof of Work: https://syed-akber-hashmi-v2.vercel.app/\n\nLet's connect for a brief demo.\n\nWarmly,\nSyed Akbar Hashmi`;
     } else {

@@ -29,7 +29,7 @@ const DEFAULT_FLAGSHIP_ITEMS = [
     tag: "gaming",
     skills: ["WebSockets", "PHP", "Redis", "Android", "Real-Time Systems"],
     category: "Websites & IT",
-    url: "https://github.com/sunmughan",
+    url: "https://syed-akber-hashmi-v2.vercel.app/",
     image: path.join(IMAGES_DIR, "zynero_games.png")
   },
   {
@@ -39,7 +39,7 @@ const DEFAULT_FLAGSHIP_ITEMS = [
     tag: "nextjs",
     skills: ["Next.js", "Fastify", "Node.js", "Docker", "Redis"],
     category: "Websites & IT",
-    url: "https://github.com/sunmughan",
+    url: "https://syed-akber-hashmi-v2.vercel.app/",
     image: path.join(IMAGES_DIR, "openpatti.png")
   },
   {
@@ -49,7 +49,7 @@ const DEFAULT_FLAGSHIP_ITEMS = [
     tag: "saas",
     skills: ["React", "Node.js", "SaaS", "PostgreSQL", "Stripe API"],
     category: "Websites & IT",
-    url: "https://github.com/sunmughan",
+    url: "https://syed-akber-hashmi-v2.vercel.app/",
     image: path.join(IMAGES_DIR, "staffease.png")
   },
   {
@@ -59,7 +59,7 @@ const DEFAULT_FLAGSHIP_ITEMS = [
     tag: "iot",
     skills: ["IoT", "NFC", "AWS Lambda", "Node.js", "React"],
     category: "Mobile Phones & Computing",
-    url: "https://github.com/sunmughan",
+    url: "https://syed-akber-hashmi-v2.vercel.app/",
     image: path.join(IMAGES_DIR, "printless.png")
   },
   {
@@ -69,7 +69,7 @@ const DEFAULT_FLAGSHIP_ITEMS = [
     tag: "flutter",
     skills: ["Flutter", "Dart", "Firebase", "Mobile Development", "FastAPI"],
     category: "Mobile Phones & Computing",
-    url: "https://github.com/sunmughan",
+    url: "https://syed-akber-hashmi-v2.vercel.app/",
     image: path.join(IMAGES_DIR, "vasera.png")
   },
   {
@@ -79,7 +79,7 @@ const DEFAULT_FLAGSHIP_ITEMS = [
     tag: "saas",
     skills: ["React", "Python", "B2B E-Commerce", "PDF Generation"],
     category: "Websites & IT",
-    url: "https://github.com/sunmughan",
+    url: "https://syed-akber-hashmi-v2.vercel.app/",
     image: path.join(IMAGES_DIR, "onequotation.png")
   },
   {
@@ -89,7 +89,7 @@ const DEFAULT_FLAGSHIP_ITEMS = [
     tag: "ecommerce",
     skills: ["React", "E-Commerce", "Firebase", "Stripe", "Framer Motion"],
     category: "Websites & IT",
-    url: "https://github.com/sunmughan",
+    url: "https://syed-akber-hashmi-v2.vercel.app/",
     image: path.join(IMAGES_DIR, "maviinci.png")
   },
   {
@@ -99,7 +99,7 @@ const DEFAULT_FLAGSHIP_ITEMS = [
     tag: "b2b",
     skills: ["Next.js", "Node.js", "B2B Marketplace", "MongoDB"],
     category: "Websites & IT",
-    url: "https://github.com/sunmughan",
+    url: "https://syed-akber-hashmi-v2.vercel.app/",
     image: path.join(IMAGES_DIR, "machine_mandi.png")
   }
 ];

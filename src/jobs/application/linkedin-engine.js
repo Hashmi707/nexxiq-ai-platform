@@ -38,7 +38,7 @@ class LinkedInJobEngine {
     return {
       fullName: "Syed Akbar Hashmi",
       email: "syedakbarhashmi519@gmail.com",
-      phone: "6305700963",
+      phone: process.env.CANDIDATE_PHONE || "",
       countryCode: "91",
       experienceYears: "4",
       experienceMonths: "6",

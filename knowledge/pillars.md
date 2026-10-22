@@ -19,7 +19,7 @@ Any user, agency, or business can customize these 5 pillars to match their speci
 - **Badge**: BUILDER NETWORK
 - **Focus**: Real-world software engineering collaboration, transparent client deliverables, fair revenue share, full-stack craft.
 - **Audience**: Freelancers, frontend/backend engineers, UI/UX designers, tech leads.
-- **Reference URL**: https://www.codeair.tech
+- **Reference URL**: https://syed-akber-hashmi-v2.vercel.app/
 
 ## Pillar 3: founders_revolution
 - **Title**: Startup Lessons & SaaS Architecture
@@ -44,7 +44,7 @@ Any user, agency, or business can customize these 5 pillars to match their speci
 - **Badge**: OPEN SOURCE AI
 - **Focus**: Open-source cross-platform social automation, Termux:X11 mobile execution, Antigravity Gemini AI reasoning, and multi-agent system architecture.
 - **Audience**: AI engineers, open-source contributors, growth hackers, software builders, Termux developers.
-- **Reference URL**: https://github.com/sunmughan/meta-automation
+- **Reference URL**: https://github.com/Hashmi707/nexxiq-ai-platform
 
 ## Pillar 7: saas_platforms
 - **Title**: B2B SaaS Architecture & Product Engineering

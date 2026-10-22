@@ -105,7 +105,7 @@ async function main() {
   let isAiPortfolio = true;
 
   if (userHasPortfolio) {
-    portfolioUrl = (await ask("Enter your Portfolio URL, GitHub profile, or LinkedIn URL [https://github.com/sunmughan]: ")).trim() || "https://github.com/sunmughan";
+    portfolioUrl = (await ask("Enter your Portfolio URL, GitHub profile, or LinkedIn URL [https://syed-akber-hashmi-v2.vercel.app/]: ")).trim() || "https://syed-akber-hashmi-v2.vercel.app/";
     portfolioConsent = (await ask("For Freelancer.com, do you want AI to automatically generate and sync your portfolio projects from your profile, or will you create them manually yourself? (auto/manual) [auto]: ")).trim().toLowerCase() || "auto";
     isAiPortfolio = portfolioConsent === "auto" || portfolioConsent === "yes" || portfolioConsent === "y" || portfolioConsent === "true";
   } else {

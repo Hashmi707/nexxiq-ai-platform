@@ -188,7 +188,7 @@ class IndeedJobEngine {
     const candidate = {
       name: applicantProfile.fullName || "Syed Akbar Hashmi",
       email: applicantProfile.email || "syedakbarhashmi519@gmail.com",
-      phone: applicantProfile.phone || "6305700963",
+      phone: applicantProfile.phone || process.env.CANDIDATE_PHONE || "",
       resume: applicantProfile.resumePath || "default_ats_resume.pdf"
     };
 

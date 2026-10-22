@@ -7,7 +7,7 @@ const CANDIDATE = {
   firstName: "Syed Akbar",
   lastName: "Hashmi",
   email: "syedakbarhashmi519@gmail.com",
-  phone: "6305700963",
+  phone: process.env.CANDIDATE_PHONE || "",
   location: "Hyderabad, Telangana, India",
   city: "Hyderabad",
   company: "Agentic Social AI",

@@ -422,7 +422,7 @@ async function runAllTests() {
   });
 
   // 30. Single URL Mention Rule across all categories
-  test("30. https://www.codeair.tech appears EXACTLY ONCE across all comment variations", () => {
+  test("30. Official portfolio URL appears EXACTLY ONCE across all comment variations", () => {
     const sampleCategories = [
       ["Web Development"],
       ["Mobile Development"],
@@ -758,11 +758,11 @@ async function runAllTests() {
     const sampleProfilesMarkdown = `
 # Profiles
 ## Company Profiles
-- Website: [CodeAir Software Solutions](https://www.codeair.tech)
+- Website: [Agentic Social AI](https://syed-akber-hashmi-v2.vercel.app/)
 - PixelGo HMS: [PixelGo](https://pixelgo.live)
 `;
     const parsedProfiles = knowledge.parseProfilesMarkdown(sampleProfilesMarkdown);
-    assert.strictEqual(parsedProfiles.company.website, "https://www.codeair.tech", "Must parse markdown link for company website");
+    assert.strictEqual(parsedProfiles.company.website, "https://syed-akber-hashmi-v2.vercel.app/", "Must parse markdown link for company website");
     assert.strictEqual(parsedProfiles.company.pixelgo, "https://pixelgo.live", "Must parse markdown link for PixelGo HMS");
   });
 
@@ -1077,7 +1077,7 @@ async function runAllTests() {
     assert.strictEqual(resAbsent.verified, false, "Must NOT verify if comment snippet is absent");
 
     // 2. When snippet IS present with author, it MUST PASS
-    const validDomText = mockDomText + `\nsunmughan\n${commentSnippet}\ncodeair.tech`;
+    const validDomText = mockDomText + `\nsyedakbarhashmi\n${commentSnippet}\nsyed-akber-hashmi-v2.vercel.app`;
     const resPresent = verifyCommentInDom(validDomText, commentSnippet, [commentSnippet]);
     assert.strictEqual(resPresent.verified, true, "Must verify when comment snippet is genuinely present");
 
@@ -1440,12 +1440,12 @@ async function runAllTests() {
 
   // 78. Platform Link Sanitizer (Anti-reCAPTCHA Defense)
   await test("78. Platform Link Sanitizer replaces LinkedIn profile URLs with website on FB/LI", () => {
-    const inputWithLinkedIn = "We build custom mobile apps! View founder profile at https://linkedin.com/in/sunmughan or visit https://www.codeair.tech";
+    const inputWithLinkedIn = "We build custom mobile apps! View founder profile at https://linkedin.com/in/syed-akbar-hashmi or visit https://syed-akber-hashmi-v2.vercel.app/";
     
     // Facebook: LinkedIn URLs must be replaced with website URL
     const fbSanitized = aiDecisionEngine.sanitizeCommentForPlatform(inputWithLinkedIn, "facebook");
     assert(!fbSanitized.includes("linkedin.com/in/"), "Facebook comment must not contain linkedin.com/in URLs");
-    assert(fbSanitized.includes("https://www.codeair.tech"), "Facebook comment must retain website URL");
+    assert(fbSanitized.includes("https://syed-akber-hashmi-v2.vercel.app/"), "Facebook comment must retain website URL");
 
     // LinkedIn: LinkedIn profile URLs must also be replaced to avoid scraping reCAPTCHA preview cards
     const liSanitized = aiDecisionEngine.sanitizeCommentForPlatform(inputWithLinkedIn, "linkedin");

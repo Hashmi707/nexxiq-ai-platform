@@ -284,7 +284,7 @@ router.get("/resume/default", (req, res) => {
         name: process.env.CANDIDATE_NAME || "Syed Akbar Hashmi",
         title: process.env.CANDIDATE_TITLE || "AI Native Full Stack Developer",
         email: process.env.CANDIDATE_EMAIL || "syedakbarhashmi519@gmail.com",
-        phone: "+91 6305700963",
+        phone: process.env.CANDIDATE_PHONE || "",
         portfolio: process.env.CANDIDATE_PORTFOLIO || "https://syed-akber-hashmi-v2.vercel.app/",
         company: "Agentic Social AI"
       },

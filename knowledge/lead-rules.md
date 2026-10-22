@@ -2,7 +2,7 @@
 
 ## Primary Objective
 
-Identify genuine prospects for CodeAir Software Solutions while avoiding:
+Identify genuine prospects for Agentic Social AI while avoiding:
 
 - Recruitment posts
 - Job seekers
@@ -76,7 +76,7 @@ Ignore:
 - Job opening.
 - Join our team.
 
-These are recruitment opportunities, not CodeAir service leads.
+These are recruitment opportunities, not Agentic Social AI service leads.
 
 ## Service Provider Detection
 
@@ -107,7 +107,7 @@ Ignore:
 
 ## Unrelated
 
-Ignore posts that do not have a genuine CodeAir-relevant software/technology requirement.
+Ignore posts that do not have a genuine Agentic Social AI-relevant software/technology requirement.
 
 ## Service Matching
 
@@ -133,7 +133,7 @@ After qualification:
 
 Use when:
 
-- No CodeAir service is relevant.
+- No Agentic Social AI service is relevant.
 - Conversation is general.
 - Company does not need to be introduced.
 - Founder does not need to be introduced.
@@ -142,17 +142,17 @@ Use when:
 
 Use when:
 
-- CodeAir service is directly relevant.
+- Agentic Social AI service is directly relevant.
 - Prospect is asking for a software provider.
-- Prospect asks what CodeAir does.
-- Prospect asks whether CodeAir provides a service.
+- Prospect asks what Agentic Social AI does.
+- Prospect asks whether Agentic Social AI provides a service.
 
 ### FOUNDER
 
 Use when:
 
-- Prospect asks who is behind CodeAir.
-- Prospect asks who founded CodeAir.
+- Prospect asks who is behind Agentic Social AI.
+- Prospect asks who founded Agentic Social AI.
 - Prospect asks about the founder.
 - Prospect wants to speak directly with founder.
 - Founder identity is personally relevant.
@@ -195,11 +195,11 @@ Understand:
 
 ### Stage 3: Relevance
 
-Determine whether CodeAir can actually help.
+Determine whether Agentic Social AI can actually help.
 
 ### Stage 4: Company Introduction
 
-Introduce CodeAir naturally when appropriate.
+Introduce Agentic Social AI naturally when appropriate.
 
 ### Stage 5: Founder Introduction
 
@@ -252,7 +252,7 @@ Do not:
 
 - Repeatedly comment on the same person's posts.
 - Copy-paste identical comments.
-- Mention CodeAir in every comment.
+- Mention Agentic Social AI in every comment.
 - Mention the founder in every conversation.
 - Send unnecessary DMs.
 - Continue conversations when the person is clearly uninterested.

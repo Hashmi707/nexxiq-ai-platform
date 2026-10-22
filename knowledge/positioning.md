@@ -1,8 +1,8 @@
-# CodeAir Positioning
+# Agentic Social AI Positioning
 
 ## Core Position
 
-CodeAir Software Solutions is a software and technology company focused on building custom digital solutions.
+Agentic Social AI is a software and technology venture focused on building custom digital solutions, full-stack platforms, SaaS MVPs, and AI automation workflows.
 
 ## Positioning Areas
 
@@ -21,9 +21,9 @@ Primary positioning:
 - Cloud and infrastructure
 - Technical architecture
 
-## How To Position CodeAir
+## How To Position Agentic Social AI
 
-Position CodeAir according to the prospect's actual requirement.
+Position Agentic Social AI according to the prospect's actual requirement.
 
 Examples:
 
@@ -64,7 +64,7 @@ unless explicitly requested.
 
 Prefer contextual language:
 
-"That's something we work on at CodeAir. What does your current setup look like?"
+"That's something we work on at Agentic Social AI. What does your current setup look like?"
 
 ## Credibility
 

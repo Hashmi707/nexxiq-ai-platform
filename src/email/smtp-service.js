@@ -219,7 +219,7 @@ class SmtpService {
       platformUrl: "https://syed-akber-hashmi-v2.vercel.app/",
       portfolioUrl: "https://syed-akber-hashmi-v2.vercel.app/",
       contactEmail: "syedakbarhashmi519@gmail.com",
-      phone: "+91 6305700963",
+      phone: process.env.CANDIDATE_PHONE || "",
       skills: "AI Native Full Stack, Next.js, Flutter, Python, Agentic Automation, SaaS Platforms",
       ...data
     };
