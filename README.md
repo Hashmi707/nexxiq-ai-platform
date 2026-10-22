@@ -1,8 +1,8 @@
-# NexxIQ AI Platform 🚀
-### Autonomous Lead Generation, Multi-Platform Job Automation, AI Resume ATS Optimization & Secure Email Outreach Engine
-**Official Domain**: [nexxiqai.com](https://nexxiqai.com) • **Lead Engineer**: [Syed Akbar Hashmi](https://syed-akber-hashmi-v2.vercel.app/) • **Organization**: Just Smart IT Solutions
+# Agentic Social & Client Finder AI 🚀
+### Autonomous Lead Generation, High-Intent Client Acquisition, Multi-Platform Job Automation & Secure Outreach Engine
+**Lead Engineer**: [Syed Akbar Hashmi](https://syed-akber-hashmi-v2.vercel.app/) • **Live Portfolio**: [syed-akber-hashmi-v2.vercel.app](https://syed-akber-hashmi-v2.vercel.app/) • **Contact**: [syedakbarhashmi519@gmail.com](mailto:syedakbarhashmi519@gmail.com)
 
-[![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](https://nexxiqai.com)
+[![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](https://syed-akber-hashmi-v2.vercel.app/)
 [![Tests Passing](https://img.shields.io/badge/Tests-100%25%20Passing-success.svg)](tests/)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-339933.svg)](https://nodejs.org)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED.svg)](Dockerfile)
@@ -12,7 +12,7 @@
 
 ## 🌟 Executive Overview
 
-**NexxIQ AI Platform** (`nexxiqai.com`) is a unified, enterprise-grade autonomous operating platform engineered for high-intent client acquisition and career pipeline automation. Built with clean architecture, zero hardcoded secrets, and resilient error recovery, NexxIQ AI combines:
+**Agentic Social & Client Finder AI** is a unified, enterprise-grade autonomous operating platform engineered for high-intent client acquisition and career pipeline automation. Built with clean architecture, zero hardcoded secrets, and resilient error recovery, the system combines:
 
 1. **Intelligent Lead Finder**: Multi-source high-intent discovery engine that scores potential buyer posts (0–100), categorizes them into high-value service domains (Website Building, Mobile Apps, SaaS Platforms, Custom Software, and AI Automation), and exports structured CSV/JSON datasets.
 2. **Secure SMTP Email Hub**: Production-ready Nodemailer integration with rate-limited dispatch queues, dynamic template interpolation, safe secret masking, and persistent audit telemetry.
@@ -30,8 +30,8 @@
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                        NEXXIQ AI WEB PORTAL                            │
-│           (nexxiqai.com • Responsive Glassmorphism SPA)                │
+│               AGENTIC SOCIAL & CLIENT FINDER WEB PORTAL                │
+│       (http://localhost:3000 • Responsive Glassmorphism SPA)           │
 └────────────────────────────────────┬───────────────────────────────────┘
                                      │ REST APIs & WebSockets
 ┌────────────────────────────────────▼───────────────────────────────────┐
@@ -122,7 +122,7 @@
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/syedakbarhashmi/nexxiq-ai-platform.git
+git clone https://github.com/Hashmi707/nexxiq-ai-platform.git
 cd nexxiq-ai-platform
 npm install
 ```
@@ -137,11 +137,11 @@ Key variables to verify:
 PORT=3000
 NODE_ENV=production
 
-# Candidate / Founder Profile
+# Candidate Profile
 CANDIDATE_NAME="Syed Akbar Hashmi"
 CANDIDATE_EMAIL="syedakbarhashmi519@gmail.com"
 CANDIDATE_PORTFOLIO="https://syed-akber-hashmi-v2.vercel.app/"
-COMPANY_NAME="Just Smart IT Solutions"
+COMPANY_NAME="Agentic Social AI"
 
 # SMTP Settings
 SMTP_HOST=mail.wavcabs.com.au
@@ -185,41 +185,33 @@ docker compose down
 ### Using Standalone Docker
 ```bash
 # Build image
-docker build -t nexxiq-ai-platform:latest .
+docker build -t agentic-social-client-finder:latest .
 
 # Run container
 docker run -d \
   -p 3000:3000 \
-  --name nexxiq_ai \
+  --name agentic_social \
   --env-file .env \
   -v "$(pwd)/data:/app/data" \
-  nexxiq-ai-platform:latest
+  agentic-social-client-finder:latest
 ```
 
 ---
 
 ## 🧪 Comprehensive Test Suite
 
-NexxIQ AI Platform maintains a 100% test pass rate across unit, scenario, audit, and HTTP smoke tests:
+The platform maintains a 100% test pass rate across unit, scenario, audit, and HTTP smoke tests:
 
 ```bash
 # Run all tests
 npm test
 
-# Run NexxIQ Platform specific tests
-npm run test:nexxiq
+# Run Agentic Architecture tests
+npm run test:agentic
 
 # Run HTTP API & Web UI smoke tests
 node tests/smoke-test.js
 ```
-
-### Test Coverage Highlights:
-- **Lead Finder**: Intent scoring, categorization, search filters, CSV generation.
-- **SMTP Hub**: Credential masking, connection verification, dynamic template interpolation.
-- **Job Engine**: LinkedIn applied database verification (50 jobs), Indeed search query builder, ATS vendor detection.
-- **Resume Enhancer**: Keyword extraction, score progression, STAR bullet rewriter.
-- **Unified Workflow**: Lead outreach and job application end-to-end execution.
-- **HTTP Smoke Tests**: All 14 REST endpoints + Web UI root status 200 verification.
 
 ---
 
@@ -262,10 +254,10 @@ node tests/smoke-test.js
 
 - **Developer**: Syed Akbar Hashmi
 - **Role**: AI Native Full Stack Developer
-- **Organization**: Just Smart IT Solutions
-- **Website**: [nexxiqai.com](https://nexxiqai.com)
 - **Portfolio**: [syed-akber-hashmi-v2.vercel.app](https://syed-akber-hashmi-v2.vercel.app/)
 - **Contact Email**: [syedakbarhashmi519@gmail.com](mailto:syedakbarhashmi519@gmail.com)
+- **LinkedIn**: [linkedin.com/in/syed-akbar-hashmi](https://www.linkedin.com/in/syed-akbar-hashmi)
+- **GitHub**: [github.com/Hashmi707](https://github.com/Hashmi707)
 
 ---
 

@@ -14,8 +14,8 @@ jobs:
         with:
           node-version: 22
       - run: npm install
-      - name: NexxIQ Platform Tests
-        run: npm run test:nexxiq
+      - name: Platform Integration Tests
+        run: npm run test:platform
       - name: Agentic architecture and onboarding tests
         run: npm run test:agentic
       - name: Syntax validation

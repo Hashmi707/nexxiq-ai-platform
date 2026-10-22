@@ -1,5 +1,5 @@
 # ============================================================
-# Dockerfile — NexxIQ AI Platform (nexxiqai.com)
+# Dockerfile — Agentic Social & Client Finder
 # Production Container Image
 # ============================================================
 

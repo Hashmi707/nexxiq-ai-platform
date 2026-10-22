@@ -10,21 +10,21 @@ const LEADS = [
     username: "rohit-yadav-4a88ba440",
     email: "info@techyappy.com",
     composeUrl: "https://www.linkedin.com/messaging/compose/?recipient=ACoAAG8xIUABcoDAsxmmd8ERrlEkE6JumSdE5Pg",
-    message: `Hi Rohit,\n\nHope you're doing well! Saw your post regarding partnerships for Web, Mobile App & SaaS projects.\n\nAt Just Smart IT Solutions (https://syed-akber-hashmi-v2.vercel.app/), we specialize in:\n• Full-stack web platforms & dashboards (Next.js, Node, TypeScript)\n• Cross-platform mobile applications (Flutter & React Native)\n• Rapid SaaS MVPs & custom AI automation\n\nWe often partner with tech founders and agencies on client builds and technical architecture. Would love to stay connected and explore collaboration on upcoming pipelines.\n\nBest regards,\nSyed Akbar Hashmi\nFounder, Just Smart IT Solutions\nEmail: syedakbarhashmi519@gmail.com`
+    message: `Hi Rohit,\n\nHope you're doing well! Saw your post regarding partnerships for Web, Mobile App & SaaS projects.\n\nIn my engineering practice (https://syed-akber-hashmi-v2.vercel.app/), we specialize in:\n• Full-stack web platforms & dashboards (Next.js, Node, TypeScript)\n• Cross-platform mobile applications (Flutter & React Native)\n• Rapid SaaS MVPs & custom AI automation\n\nWe often partner with tech founders and agencies on client builds and technical architecture. Would love to stay connected and explore collaboration on upcoming pipelines.\n\nBest regards,\nSyed Akbar Hashmi\nAI Native Full Stack Developer\nEmail: syedakbarhashmi519@gmail.com`
   },
   {
     name: "Muhammad Haris",
     username: "muhammad-haris-125941394",
     email: null,
     composeUrl: "https://www.linkedin.com/messaging/compose/?recipient=ACoAAGD1d20B8ooQi8b9lfVyzpP-AMuPgMM3mOY",
-    message: `Hi Muhammad,\n\nLove the proactive outreach on your post! We engineer bespoke web applications, high-converting landing pages, and scalable web platforms at Just Smart IT Solutions (https://syed-akber-hashmi-v2.vercel.app/).\n\nAlways keen to partner with proactive developers and agencies on client overflow and upcoming web builds. Let's connect and keep in touch!\n\nBest regards,\nSyed Akbar Hashmi\nEmail: syedakbarhashmi519@gmail.com`
+    message: `Hi Muhammad,\n\nLove the proactive outreach on your post! We engineer bespoke web applications, high-converting landing pages, and scalable web platforms (https://syed-akber-hashmi-v2.vercel.app/).\n\nAlways keen to partner with proactive developers and agencies on client overflow and upcoming web builds. Let's connect and keep in touch!\n\nBest regards,\nSyed Akbar Hashmi\nEmail: syedakbarhashmi519@gmail.com`
   },
   {
     name: "Hitesh Prajapat",
     username: "hitesh-prajapat-29bb7a419",
     email: null,
     composeUrl: "https://www.linkedin.com/messaging/compose/?recipient=ACoAAGptEBcBl2cSybFuaLyqUEDC3EBLN_vKCXE",
-    message: `Hi Hitesh,\n\nSaw your post building the smooth EV Charging experience with Flutter—really clean architecture and UI direction!\n\nAt Just Smart IT Solutions (https://syed-akber-hashmi-v2.vercel.app/), we focus on high-performance mobile (Flutter & React Native) and web platforms. Would love to stay connected and chat Flutter mobile architecture on future projects!\n\nBest regards,\nSyed Akbar Hashmi\nEmail: syedakbarhashmi519@gmail.com`
+    message: `Hi Hitesh,\n\nSaw your post building the smooth EV Charging experience with Flutter—really clean architecture and UI direction!\n\nIn my engineering practice (https://syed-akber-hashmi-v2.vercel.app/), we focus on high-performance mobile (Flutter & React Native) and web platforms. Would love to stay connected and chat Flutter mobile architecture on future projects!\n\nBest regards,\nSyed Akbar Hashmi\nEmail: syedakbarhashmi519@gmail.com`
   }
 ];
 

@@ -1,6 +1,6 @@
 /**
  * src/email/smtp-service.js
- * Production-ready, secure SMTP Email Service for NexxIQ AI Platform (nexxiqai.com).
+ * Production-ready, secure SMTP Email Service for Agentic Social & Client Finder.
  * Handles SMTP authentication, connection verification, rate-limited dispatch,
  * templating, and audit history tracking without exposing credentials.
  */
@@ -43,7 +43,7 @@ class SmtpService {
     const secure = process.env.SMTP_SECURE === "true" || port === 465;
     const user = process.env.SMTP_USER || process.env.GMAIL_USER || process.env.CONTACT_EMAIL || "syedakbarhashmi519@gmail.com";
     const pass = process.env.SMTP_PASS || process.env.GMAIL_APP_PASSWORD || process.env.EMAIL_PASSWORD || "";
-    const from = process.env.EMAIL_FROM || `NexxIQ AI <${user}>`;
+    const from = process.env.EMAIL_FROM || `Agentic Social AI <${user}>`;
     const replyTo = process.env.EMAIL_REPLY_TO || user;
 
     return {
@@ -214,9 +214,9 @@ class SmtpService {
 
     const defaultData = {
       founderName: "Syed Akbar Hashmi",
-      companyName: "Just Smart IT Solutions",
-      platformName: "NexxIQ AI",
-      platformUrl: "https://nexxiqai.com",
+      companyName: "Agentic Social AI",
+      platformName: "Agentic Social & Client Finder",
+      platformUrl: "https://syed-akber-hashmi-v2.vercel.app/",
       portfolioUrl: "https://syed-akber-hashmi-v2.vercel.app/",
       contactEmail: "syedakbarhashmi519@gmail.com",
       phone: "+91 6305700963",
@@ -330,11 +330,11 @@ class SmtpService {
         html: `
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background: #ffffff;">
   <div style="margin-bottom: 20px;">
-    <span style="background: #e0e7ff; color: #4338ca; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">NexxIQ AI & Just Smart IT Solutions</span>
+    <span style="background: #e0e7ff; color: #4338ca; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Agentic Social & Client Finder</span>
   </div>
   <h2 style="color: #0f172a; margin-top: 0; font-size: 20px;">Hello {{prospectName}},</h2>
   <p>I hope this email finds you well. I came across your recent work and wanted to connect directly.</p>
-  <p>I am <strong>{{founderName}}</strong>, AI Native Full Stack Developer and founder at <strong>{{companyName}}</strong> and the <strong>NexxIQ AI Platform</strong> ({{platformUrl}}).</p>
+  <p>I am <strong>{{founderName}}</strong>, AI Native Full Stack Developer and creator of <strong>{{companyName}}</strong> ({{portfolioUrl}}).</p>
   <p>We engineer end-to-end digital platforms, high-velocity SaaS products, cross-platform mobile apps (Flutter & React Native), and autonomous AI agent workflows designed for high performance and measurable ROI.</p>
   <div style="background: #f8fafc; border-left: 4px solid #6366f1; padding: 14px 18px; margin: 20px 0; border-radius: 4px;">
     <p style="margin: 0; font-size: 14px; color: #334155;">
@@ -348,23 +348,23 @@ class SmtpService {
   <p style="font-size: 14px; color: #64748b; margin: 0;">
     Best regards,<br/>
     <strong style="color: #0f172a;">{{founderName}}</strong><br/>
-    Lead AI Native Developer & Founder<br/>
-    {{companyName}} • <a href="{{platformUrl}}" style="color: #6366f1;">{{platformName}}</a><br/>
+    AI Native Full Stack Developer<br/>
+    {{companyName}} • <a href="{{portfolioUrl}}" style="color: #6366f1;">Portfolio</a><br/>
     Email: <a href="mailto:{{contactEmail}}" style="color: #64748b;">{{contactEmail}}</a> | Phone: {{phone}}
   </p>
 </div>
         `,
-        text: `Hello {{prospectName}},\n\nI am {{founderName}}, AI Native Full Stack Developer at {{companyName}} and {{platformName}} ({{platformUrl}}).\n\nWe specialize in high-velocity web platforms, mobile apps (Flutter/React Native), SaaS products, and custom AI agent automation.\n\nExplore our live portfolio: {{portfolioUrl}}\n\nIf you have any current or upcoming software initiatives, I'd love to explore how we can assist.\n\nBest regards,\n{{founderName}}\n{{contactEmail}} | {{phone}}`
+        text: `Hello {{prospectName}},\n\nI am {{founderName}}, AI Native Full Stack Developer at {{companyName}} ({{portfolioUrl}}).\n\nWe specialize in high-velocity web platforms, mobile apps (Flutter/React Native), SaaS products, and custom AI agent automation.\n\nExplore our live portfolio: {{portfolioUrl}}\n\nIf you have any current or upcoming software initiatives, I'd love to explore how we can assist.\n\nBest regards,\n{{founderName}}\n{{contactEmail}} | {{phone}}`
       },
 
       ai_automation: {
         name: "AI Agents & Autonomous Workflow Pitch",
-        subject: "Automating Operations with Custom AI Agents — NexxIQ AI",
+        subject: "Automating Operations with Custom AI Agents — {{companyName}}",
         html: `
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background: #ffffff;">
   <h2 style="color: #0f172a; margin-top: 0; font-size: 20px;">Hi {{prospectName}},</h2>
   <p>I noticed your company is scaling and exploring modern AI capabilities.</p>
-  <p>Through <strong>NexxIQ AI</strong> ({{platformUrl}}) and <strong>{{companyName}}</strong>, we build bespoke agentic workflows, autonomous lead pipelines, and custom LLM integrations that replace hours of repetitive manual operations with intelligent automation.</p>
+  <p>Through <strong>{{companyName}}</strong> ({{portfolioUrl}}), we build bespoke agentic workflows, autonomous lead pipelines, and custom LLM integrations that replace hours of repetitive manual operations with intelligent automation.</p>
   <p>Our solutions integrate directly with your existing APIs, databases, and communication channels (Slack, WhatsApp, Email, CRM).</p>
   <p><strong>Recent Client Builds Include:</strong></p>
   <ul style="color: #334155;">
@@ -377,11 +377,11 @@ class SmtpService {
   <p style="font-size: 14px; color: #64748b; margin-top: 24px;">
     Warmly,<br/>
     <strong>{{founderName}}</strong><br/>
-    {{companyName}} & NexxIQ AI
+    {{companyName}}
   </p>
 </div>
         `,
-        text: `Hi {{prospectName}},\n\nThrough NexxIQ AI ({{platformUrl}}) and {{companyName}}, we build bespoke agentic workflows and custom LLM integrations that automate complex business operations.\n\nPortfolio: {{portfolioUrl}}\n\nLet's connect for a brief 10-minute demo.\n\nWarmly,\n{{founderName}}`
+        text: `Hi {{prospectName}},\n\nThrough {{companyName}} ({{portfolioUrl}}), we build bespoke agentic workflows and custom LLM integrations that automate complex business operations.\n\nPortfolio: {{portfolioUrl}}\n\nLet's connect for a brief 10-minute demo.\n\nWarmly,\n{{founderName}}`
       },
 
       job_application: {

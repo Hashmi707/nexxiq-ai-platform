@@ -1,6 +1,6 @@
 /**
  * src/api/routes.js
- * Consolidated RESTful API router for NexxIQ AI Platform (nexxiqai.com).
+ * Consolidated RESTful API router for Agentic Social & Client Finder.
  * Exposes endpoints for Leads, SMTP Email, Multi-Platform Jobs, ATS Resume Enhancer, and Workflows.
  */
 
@@ -21,8 +21,8 @@ const workflowOrchestrator = require("../orchestrator/unified-workflow");
 router.get("/health", (req, res) => {
   res.json({
     status: "HEALTHY",
-    platform: "NexxIQ AI Platform",
-    domain: "nexxiqai.com",
+    platform: "Agentic Social & Client Finder",
+    domain: "https://syed-akber-hashmi-v2.vercel.app/",
     version: "2.1.0",
     uptimeSeconds: Math.round(process.uptime()),
     timestamp: new Date().toISOString()
@@ -61,7 +61,7 @@ router.get("/leads/export/csv", (req, res) => {
   try {
     const csv = leadEngine.exportToCsv(req.query.category || "ALL", req.query.status || "ALL");
     res.setHeader("Content-Type", "text/csv");
-    res.setHeader("Content-Disposition", 'attachment; filename="nexxiq_leads.csv"');
+    res.setHeader("Content-Disposition", 'attachment; filename="agentic_leads.csv"');
     res.send(csv);
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
@@ -286,9 +286,9 @@ router.get("/resume/default", (req, res) => {
         email: process.env.CANDIDATE_EMAIL || "syedakbarhashmi519@gmail.com",
         phone: "+91 6305700963",
         portfolio: process.env.CANDIDATE_PORTFOLIO || "https://syed-akber-hashmi-v2.vercel.app/",
-        company: "Just Smart IT Solutions & NexxIQ AI"
+        company: "Agentic Social AI"
       },
-      sampleResume: `Syed Akbar Hashmi\nAI Native Full Stack Developer | Just Smart IT Solutions & NexxIQ AI\nEmail: syedakbarhashmi519@gmail.com | Portfolio: https://syed-akber-hashmi-v2.vercel.app/\n\nSUMMARY\nAI Native Full Stack Developer with 4+ years experience engineering high-performance web applications, mobile platforms, and autonomous agent workflows. Specialized in React, Next.js, Flutter, Python, Node.js, and scalable cloud architectures.\n\nTECHNICAL SKILLS\n• Frontend: React, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux, HTML5, CSS3\n• Mobile: Flutter, React Native, Dart, Cross-Platform Mobile Apps\n• Backend: Node.js, Express, Python, FastAPI, REST APIs, Microservices\n• Cloud & Databases: PostgreSQL, MongoDB, Redis, Docker, AWS, GCP, CI/CD\n• AI & Automation: Autonomous Agents, CDP Browser Automation, Puppeteer, LLM Prompt Engineering\n\nEXPERIENCE\nAI Native Full Stack Developer | Just Smart IT Solutions (2022 - Present)\n• Developed full-stack SaaS platforms and responsive web applications using Next.js, TypeScript, and Node.js.\n• Built cross-platform mobile applications in Flutter with offline synchronization and real-time backend updates.\n• Automated high-frequency browser operations and lead qualification engines using Puppeteer and CDP protocols.\n• Integrated Stripe payments, multi-tenant databases with PostgreSQL, and microservices architectures.\n• Optimized application performance, reducing page load times by 45% and improving API throughput.`,
+      sampleResume: `Syed Akbar Hashmi\nAI Native Full Stack Developer | Agentic Social & Client Finder\nEmail: syedakbarhashmi519@gmail.com | Portfolio: https://syed-akber-hashmi-v2.vercel.app/\n\nSUMMARY\nAI Native Full Stack Developer with 4+ years experience engineering high-performance web applications, mobile platforms, and autonomous agent workflows. Specialized in React, Next.js, Flutter, Python, Node.js, and scalable cloud architectures.\n\nTECHNICAL SKILLS\n• Frontend: React, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux, HTML5, CSS3\n• Mobile: Flutter, React Native, Dart, Cross-Platform Mobile Apps\n• Backend: Node.js, Express, Python, FastAPI, REST APIs, Microservices\n• Cloud & Databases: PostgreSQL, MongoDB, Redis, Docker, AWS, GCP, CI/CD\n• AI & Automation: Autonomous Agents, CDP Browser Automation, Puppeteer, LLM Prompt Engineering\n\nEXPERIENCE\nAI Native Full Stack Developer | Autonomous Client Systems (2022 - Present)\n• Developed full-stack SaaS platforms and responsive web applications using Next.js, TypeScript, and Node.js.\n• Built cross-platform mobile applications in Flutter with offline synchronization and real-time backend updates.\n• Automated high-frequency browser operations and lead qualification engines using Puppeteer and CDP protocols.\n• Integrated Stripe payments, multi-tenant databases with PostgreSQL, and microservices architectures.\n• Optimized application performance, reducing page load times by 45% and improving API throughput.`,
       sampleJobDescription: `Senior AI Native Full Stack Developer\nCompany: Cognitive Cloud Systems (Remote)\nRequirements:\n- 4+ years of professional engineering experience with React, Next.js, and TypeScript.\n- Strong proficiency in Python, FastAPI, and Node.js for scalable backend microservices.\n- Hands-on experience developing Generative AI, LLM workflows, LangChain, and Agentic Workflows.\n- Deep expertise in PostgreSQL, Redis, Docker, and CI/CD pipelines.\n- Experience with Browser Automation (Puppeteer / Playwright) and web scraping.\n- Demonstrated ability to deliver production-grade code, reduce API latency, and scale to thousands of users.`
     });
   } catch (err) {

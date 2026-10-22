@@ -1,6 +1,6 @@
 /**
  * src/server.js
- * Production Web Server & API for NexxIQ AI Platform (nexxiqai.com).
+ * Production Web Server & API for Agentic Social & Client Finder.
  * Serves the responsive web frontend, secure RESTful APIs, and autonomous agent orchestration.
  */
 
@@ -19,7 +19,7 @@ app.use((req, res, next) => {
   res.setHeader("X-Content-Type-Options", "nosniff");
   res.setHeader("X-Frame-Options", "SAMEORIGIN");
   res.setHeader("X-XSS-Protection", "1; mode=block");
-  res.setHeader("X-Powered-By", "NexxIQ AI Core Engine");
+  res.setHeader("X-Powered-By", "Agentic Social Core Engine");
   next();
 });
 
@@ -67,7 +67,7 @@ if (cleanupTimer.unref) cleanupTimer.unref();
 // API Router
 app.use("/api", apiRoutes);
 
-// Static Web Frontend (NexxIQ AI Website)
+// Static Web Frontend (Agentic Social & Client Finder)
 const publicDir = path.resolve(__dirname, "../public");
 if (fs.existsSync(publicDir)) {
   app.use(express.static(publicDir));
@@ -80,7 +80,7 @@ app.use((req, res) => {
     res.sendFile(indexPath);
   } else {
     res.json({
-      platform: "NexxIQ AI Platform",
+      platform: "Agentic Social & Client Finder",
       status: "ONLINE",
       apiEndpoints: "/api/health",
       documentation: "See README.md"
@@ -101,7 +101,7 @@ function startServer(port = PORT) {
   return new Promise((resolve, reject) => {
     const server = app.listen(port, HOST, () => {
       console.log(`\n==================================================`);
-      console.log(`🚀 NexxIQ AI Platform (nexxiqai.com) Active!`);
+      console.log(`🚀 Agentic Social & Client Finder Active!`);
       console.log(`🌐 Local Web Portal: http://localhost:${port}`);
       console.log(`📡 API Base:        http://localhost:${port}/api/health`);
       console.log(`==================================================\n`);

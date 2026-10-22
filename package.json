@@ -1,10 +1,10 @@
 {
-  "name": "nexxiq-ai-platform",
+  "name": "agentic-social-client-finder",
   "version": "2.1.0",
-  "description": "NexxIQ AI Platform (nexxiqai.com) — End-to-end autonomous AI system for lead generation, multi-platform job applications (LinkedIn, Indeed, Custom ATS), AI resume enhancement, and secure SMTP outreach.",
+  "description": "Agentic Social & Client Finder — Autonomous AI system for lead generation, multi-platform job applications (LinkedIn, Indeed, Custom ATS), AI resume ATS optimization, and secure SMTP outreach.",
   "main": "src/server.js",
   "bin": {
-    "nexxiq-ai": "./src/server.js",
+    "agentic-finder": "./src/server.js",
     "meta-automation": "./threads-agent.js"
   },
   "scripts": {
@@ -14,10 +14,10 @@
     "dev": "node src/server.js",
     "desktop": "node scripts/desktop-runner.js",
     "desktop:layout": "node scripts/layout-cdp-windows.js",
-    "test": "node tests/suite.js && node tests/cross-platform-audit.js && node tests/job-engine-audit.js && node tests/desktop-runner.test.js && node tests/autopilot-modes.test.js && node tests/nexxiq-platform.test.js && node tests/smoke-test.js",
-    "test:nexxiq": "node tests/nexxiq-platform.test.js",
+    "test": "node tests/suite.js && node tests/cross-platform-audit.js && node tests/job-engine-audit.js && node tests/desktop-runner.test.js && node tests/autopilot-modes.test.js && node tests/platform.test.js && node tests/smoke-test.js",
+    "test:platform": "node tests/platform.test.js",
     "test:agentic": "node tests/agentic-v2.test.js && node tests/onboarding-v2.test.js",
-    "workflow:lead": "node -e \"require('./src/orchestrator/unified-workflow').runLeadOutreachPipeline({leadId: 'lead_nexx_101'}).then(r => console.log(r))\"",
+    "workflow:lead": "node -e \"require('./src/orchestrator/unified-workflow').runLeadOutreachPipeline({leadId: 'lead_agnt_101'}).then(r => console.log(r))\"",
     "workflow:job": "node -e \"require('./src/orchestrator/unified-workflow').runJobApplicationPipeline({platform: 'LinkedIn'}).then(r => console.log(r))\"",
     "deals": "node scripts/show-deals.js",
     "pitch": "node scripts/pitch-qualified-leads.js",
@@ -33,11 +33,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/syedakbarhashmi/nexxiq-ai-platform.git"
+    "url": "https://github.com/Hashmi707/nexxiq-ai-platform.git"
   },
   "keywords": [
-    "nexxiq-ai",
-    "nexxiqai",
+    "agentic-social",
+    "client-finder",
+    "lead-finder",
     "ai-agent",
     "autonomous-agents",
     "lead-generation",
@@ -51,7 +52,7 @@
   ],
   "author": "Syed Akbar Hashmi <syedakbarhashmi519@gmail.com> (https://syed-akber-hashmi-v2.vercel.app/)",
   "license": "MIT",
-  "homepage": "https://nexxiqai.com",
+  "homepage": "https://syed-akber-hashmi-v2.vercel.app/",
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",

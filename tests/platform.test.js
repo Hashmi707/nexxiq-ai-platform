@@ -1,6 +1,6 @@
 /**
- * tests/nexxiq-platform.test.js
- * Comprehensive automated verification for NexxIQ AI Platform (nexxiqai.com).
+ * tests/platform.test.js
+ * Comprehensive automated verification for Agentic Social & Client Finder.
  * Tests Lead Finder, SMTP Service, Multi-Platform Jobs, Resume ATS Enhancer, and Unified Workflow.
  */
 
@@ -13,9 +13,9 @@ const customBoardEngine = require("../src/jobs/application/custom-board-engine")
 const resumeEnhancer = require("../src/resume/resume-enhancer");
 const unifiedWorkflow = require("../src/orchestrator/unified-workflow");
 
-async function runNexxIQPlatformTests() {
+async function runPlatformTests() {
   console.log("\n==================================================");
-  console.log("  NEXXIQ AI PLATFORM (nexxiqai.com) — TEST SUITE");
+  console.log("  AGENTIC SOCIAL & CLIENT FINDER — TEST SUITE");
   console.log("==================================================\n");
 
   let passed = 0;
@@ -89,9 +89,9 @@ async function runNexxIQPlatformTests() {
   test("SmtpService templates interpolate dynamic variables cleanly", () => {
     const interpolated = smtpService.interpolate("Hello {{name}} from {{company}}!", {
       name: "Syed Akbar Hashmi",
-      company: "NexxIQ AI"
+      company: "Agentic Social AI"
     });
-    assert.strictEqual(interpolated, "Hello Syed Akbar Hashmi from NexxIQ AI!");
+    assert.strictEqual(interpolated, "Hello Syed Akbar Hashmi from Agentic Social AI!");
   });
 
   // 3. MULTI-PLATFORM JOB APPLICATION TESTS
@@ -148,7 +148,7 @@ Experience:
   console.log("\n--- 5. Unified Autonomous Workflow ---");
   await asyncTest("UnifiedWorkflow executes lead outreach pipeline", async () => {
     const result = await unifiedWorkflow.runLeadOutreachPipeline({
-      leadId: "lead_nexx_101",
+      leadId: "lead_agnt_101",
       templateName: "agency_pitch"
     });
     assert.strictEqual(result.status, "SUCCESS", "Workflow run must succeed");
@@ -166,7 +166,7 @@ Experience:
   });
 
   console.log("\n--------------------------------------------------");
-  console.log(`NexxIQ Platform Results: ${passed} Passed, ${failed} Failed`);
+  console.log(`Platform Results: ${passed} Passed, ${failed} Failed`);
   console.log("--------------------------------------------------\n");
 
   if (failed > 0) {
@@ -177,10 +177,10 @@ Experience:
 }
 
 if (require.main === module) {
-  runNexxIQPlatformTests().catch(err => {
+  runPlatformTests().catch(err => {
     console.error("Test runner crashed:", err);
     process.exit(1);
   });
 }
 
-module.exports = { runNexxIQPlatformTests };
+module.exports = { runPlatformTests };

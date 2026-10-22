@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: NexxIQ Platform Tests
-        run: npm run test:nexxiq
+      - name: Platform Integration Tests
+        run: npm run test:platform
 
       - name: Static agentic architecture audit
         run: npm run test:agentic

@@ -46,19 +46,19 @@ async function runPitching() {
       postId: "li_ck_273110813",
       username: "rohit-yadav-4a88ba440",
       category: "Web Development, Mobile Apps & SaaS Products",
-      pitch: "Hi Rohit, Great initiative! We specialize in end-to-end full-stack web platforms, mobile applications (React Native & Flutter), and scalable SaaS MVPs at Just Smart IT Solutions (https://syed-akber-hashmi-v2.vercel.app/). Always keen to partner with talented developers and agencies on client builds and technical architecture. Let's definitely connect and explore collaboration!"
+      pitch: "Hi Rohit, Great initiative! We specialize in end-to-end full-stack web platforms, mobile applications (React Native & Flutter), and scalable SaaS MVPs (https://syed-akber-hashmi-v2.vercel.app/). Always keen to partner with talented developers and agencies on client builds and technical architecture. Let's definitely connect and explore collaboration!"
     },
     {
       postId: "li_ck_2009226648",
       username: "muhammad-haris-125941394",
       category: "Remote Web Development & Client Outreach",
-      pitch: "Hi Muhammad, Love the proactive outreach! We build high-converting web applications, bespoke landing pages, and scalable web solutions at Just Smart IT Solutions (https://syed-akber-hashmi-v2.vercel.app/). Happy to stay connected and exchange notes on upcoming client web projects and agency collaborations!"
+      pitch: "Hi Muhammad, Love the proactive outreach! We build high-converting web applications, bespoke landing pages, and scalable web solutions (https://syed-akber-hashmi-v2.vercel.app/). Happy to stay connected and exchange notes on upcoming client web projects and agency collaborations!"
     },
     {
       postId: "expandedhftrRQvRuPcpSy5YKTIngxJB8mg6KtRBVXWucWf-rr8FeedType_",
       username: "hitesh-prajapat-29bb7a419",
       category: "Mobile App Development & Flutter Architecture",
-      pitch: "Hi Hitesh, Building slick, low-latency mobile interfaces with Flutter is a fantastic direction—especially for IoT flows like EV charging where real-time socket updates and state management matter. At Just Smart IT Solutions (https://syed-akber-hashmi-v2.vercel.app/), we focus on high-performance mobile and web solutions. Would be glad to connect and chat Flutter architecture!"
+      pitch: "Hi Hitesh, Building slick, low-latency mobile interfaces with Flutter is a fantastic direction—especially for IoT flows like EV charging where real-time socket updates and state management matter. At Agentic Social AI (https://syed-akber-hashmi-v2.vercel.app/), we focus on high-performance mobile and web solutions. Would be glad to connect and chat Flutter architecture!"
     }
   ];
 

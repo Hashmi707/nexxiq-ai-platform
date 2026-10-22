@@ -57,7 +57,7 @@ async function generateCarouselPdf(options = {}) {
     },
     {
       num: 5,
-      tag: "JUST SMART IT SOLUTIONS",
+      tag: "AGENTIC SOCIAL AI",
       title: "Ready to Build Your SaaS, App or Web Platform?",
       subtitle: "We partner with ambitious startups and businesses to build high-performance digital products.",
       points: [
@@ -184,7 +184,7 @@ async function generateCarouselPdf(options = {}) {
   ${slides.map(s => `
     <div class="slide" style="background: ${s.bgGradient};">
       <div class="top-bar">
-        <div class="brand">JUST SMART <span>IT SOLUTIONS</span></div>
+        <div class="brand">AGENTIC <span>CLIENT FINDER</span></div>
         <div class="slide-num">0${s.num} / 05</div>
       </div>
       

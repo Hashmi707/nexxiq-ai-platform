@@ -39,7 +39,7 @@ When speaking as Syed Akbar Hashmi:
 
 ## Company Voice
 
-When speaking as Just Smart IT Solutions:
-- Use "we" naturally ("At Just Smart IT Solutions, we engineer...").
+When speaking as Agentic Social AI:
+- Use "we" naturally ("At Agentic Social AI, we engineer...").
 - Mention only relevant services.
 - Provide portfolio link (https://syed-akber-hashmi-v2.vercel.app/).

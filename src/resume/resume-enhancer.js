@@ -1,6 +1,6 @@
 /**
  * src/resume/resume-enhancer.js
- * Production-ready AI Resume Enhancer & ATS Optimization Engine for NexxIQ AI Platform.
+ * Production-ready AI Resume Enhancer & ATS Optimization Engine for Agentic Social & Client Finder.
  * Analyzes resumes against target job descriptions, computes ATS compatibility scores (0-100),
  * detects missing critical keywords, and generates enhanced resumes optimized for recruitment algorithms.
  */

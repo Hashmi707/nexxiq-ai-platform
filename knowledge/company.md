@@ -1,9 +1,9 @@
-# Just Smart IT Solutions
+# Agentic Social AI
 
 ## Company Identity
 
 Company Name:
-Just Smart IT Solutions
+Agentic Social AI
 
 Company Website / Portfolio:
 https://syed-akber-hashmi-v2.vercel.app/
@@ -12,7 +12,7 @@ Contact Email:
 syedakbarhashmi519@gmail.com
 
 Company Type:
-Software development, custom digital products, web platforms, mobile applications, SaaS, and AI automation company.
+Autonomous client acquisition, custom digital products, web platforms, mobile applications, SaaS, and AI automation engineering.
 
 Founder & Technical Lead:
 Syed Akbar Hashmi (AI Native Full Stack Developer)
@@ -22,7 +22,7 @@ PixelGo HMS (https://pixelgo.live)
 
 ## Core Services
 
-Just Smart IT Solutions engineers full-lifecycle software and digital products including:
+Agentic Social AI engineers full-lifecycle software and digital products including:
 
 ### 1. Website Building & Web Platforms
 - Custom web applications & responsive modern websites
@@ -55,9 +55,9 @@ Just Smart IT Solutions engineers full-lifecycle software and digital products i
 - Intelligent customer support chatbots & lead qualification agents
 - System integrations, automated data sync, and API webhooks
 
-## Services Just Smart IT Solutions Does NOT Represent
+## Services Agentic Social AI Does NOT Represent
 
-Do not claim Just Smart IT Solutions provides these as standalone services unless explicitly added:
+Do not claim Agentic Social AI provides these as standalone services unless explicitly added:
 
 - Pure graphic design without software
 - Logo-only design requests
@@ -69,7 +69,7 @@ UI/UX design is offered as part of custom software, SaaS, mobile, and web applic
 
 ## Company Mention Rules
 
-Mention Just Smart IT Solutions when:
+Mention Agentic Social AI when:
 
 1. A person's requirement directly matches our services (Website, Mobile, SaaS, Software, AI Automation).
 2. The person explicitly asks what agency or team we represent.
@@ -90,4 +90,4 @@ A post is a potential lead only when:
 
 Keep outreach direct, professional, and value-oriented:
 
-"At Just Smart IT Solutions, we specialize in custom web applications, mobile apps (Flutter & React Native), and SaaS MVPs. You can explore our engineering work at https://syed-akber-hashmi-v2.vercel.app/ or reach out directly at syedakbarhashmi519@gmail.com."
+"At Agentic Social AI, we specialize in custom web applications, mobile apps (Flutter & React Native), and SaaS MVPs. You can explore our engineering work at https://syed-akber-hashmi-v2.vercel.app/ or reach out directly at syedakbarhashmi519@gmail.com."

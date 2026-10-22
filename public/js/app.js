@@ -1,10 +1,10 @@
 /**
  * public/js/app.js
- * Frontend controller for NexxIQ AI Platform (nexxiqai.com).
+ * Frontend controller for Agentic Social & Client Finder.
  * Orchestrates views, API communication, live metrics, and user interactions.
  */
 
-class NexxIQApp {
+class AgenticApp {
   constructor() {
     this.currentView = "dashboard";
     this.leads = [];
@@ -25,7 +25,7 @@ Requirements:
 
     this.sampleResume = `
 Syed Akbar Hashmi
-AI Native Full Stack Developer | Just Smart IT Solutions & NexxIQ AI
+AI Native Full Stack Developer | Agentic Social & Client Finder
 Email: syedakbarhashmi519@gmail.com | Phone: +91 6305700963 | Location: India (Remote)
 Portfolio: https://syed-akber-hashmi-v2.vercel.app/ | LinkedIn: https://www.linkedin.com/in/syed-akbar-hashmi
 
@@ -40,7 +40,7 @@ TECHNICAL SKILLS
 • AI & Automation: Autonomous Agents, CDP Browser Automation, Puppeteer, LLM Prompt Engineering
 
 EXPERIENCE
-AI Native Full Stack Developer | Just Smart IT Solutions (2022 - Present)
+AI Native Full Stack Developer | Autonomous Client Systems (2022 - Present)
 • Developed full-stack SaaS platforms and responsive web applications using Next.js, TypeScript, and Node.js.
 • Built cross-platform mobile applications in Flutter with offline synchronization and real-time backend updates.
 • Automated high-frequency browser operations and lead qualification engines using Puppeteer and CDP protocols.
@@ -112,7 +112,7 @@ Bachelor of Technology in Computer Science & Engineering
     };
 
     const subtitles = {
-      dashboard: "Unified Autonomous Revenue & Job Engine • NexxIQ AI (nexxiqai.com)",
+      dashboard: "Unified Autonomous Client & Job Acquisition Engine • Agentic Social AI",
       leads: "Find, qualify, and convert buyer inquiries into active projects",
       email: "Nodemailer transporter with rate-limited dispatch and template interpolation",
       jobs: "Verified submissions across LinkedIn Easy Apply, Indeed, and Custom Career Sites",
@@ -257,9 +257,9 @@ Bachelor of Technology in Computer Science & Engineering
     const bodyEl = document.getElementById("composer-body");
 
     if (template === "agency_pitch") {
-      bodyEl.value = `Hello ${name},\n\nI am Syed Akbar Hashmi, AI Native Full Stack Developer and founder at Just Smart IT Solutions and the NexxIQ AI Platform (https://nexxiqai.com).\n\nWe engineer full-lifecycle web platforms, cross-platform mobile apps (Flutter & React Native), SaaS MVPs, and custom AI automation.\n\nExplore our live technical portfolio: https://syed-akber-hashmi-v2.vercel.app/\n\nWould you be open to a 10-minute introductory conversation this week?\n\nBest regards,\nSyed Akbar Hashmi\nsyedakbarhashmi519@gmail.com | +91 6305700963`;
+      bodyEl.value = `Hello ${name},\n\nI am Syed Akbar Hashmi, AI Native Full Stack Developer and creator of Agentic Social & Client Finder (https://syed-akber-hashmi-v2.vercel.app/).\n\nWe engineer full-lifecycle web platforms, cross-platform mobile apps (Flutter & React Native), SaaS MVPs, and custom AI automation.\n\nExplore our live technical portfolio: https://syed-akber-hashmi-v2.vercel.app/\n\nWould you be open to a 10-minute introductory conversation this week?\n\nBest regards,\nSyed Akbar Hashmi\nsyedakbarhashmi519@gmail.com | +91 6305700963`;
     } else if (template === "ai_automation") {
-      bodyEl.value = `Hi ${name},\n\nThrough NexxIQ AI (https://nexxiqai.com) and Just Smart IT Solutions, we engineer bespoke autonomous workflows and AI agents that automate repetitive business tasks.\n\nLive Proof of Work: https://syed-akber-hashmi-v2.vercel.app/\n\nLet's connect for a brief demo.\n\nWarmly,\nSyed Akbar Hashmi`;
+      bodyEl.value = `Hi ${name},\n\nThrough Agentic Social & Client Finder (https://syed-akber-hashmi-v2.vercel.app/), we engineer bespoke autonomous workflows and AI agents that automate repetitive business tasks.\n\nLive Proof of Work: https://syed-akber-hashmi-v2.vercel.app/\n\nLet's connect for a brief demo.\n\nWarmly,\nSyed Akbar Hashmi`;
     } else {
       bodyEl.value = `Dear Hiring Team,\n\nI am writing to express my strong interest in the AI Native Full Stack Developer opening.\n\nWith 4+ years of engineering experience across React, Next.js, Python, Flutter, and LLM automation, I deliver scalable, production-grade systems.\n\nPortfolio: https://syed-akber-hashmi-v2.vercel.app/\nNotice Period: 15 Days\n\nSincerely,\nSyed Akbar Hashmi`;
     }
@@ -756,5 +756,5 @@ Bachelor of Technology in Computer Science & Engineering
 
 // Instantiate on DOM load
 window.addEventListener("DOMContentLoaded", () => {
-  window.app = new NexxIQApp();
+  window.app = new AgenticApp();
 });

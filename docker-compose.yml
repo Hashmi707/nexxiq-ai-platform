@@ -1,10 +1,10 @@
 services:
-  nexxiq-ai:
+  agentic-social:
     build:
       context: .
       dockerfile: Dockerfile
-    image: nexxiq-ai-platform:latest
-    container_name: nexxiq_ai_platform
+    image: agentic-social-client-finder:latest
+    container_name: agentic_social_platform
     restart: unless-stopped
     ports:
       - "3000:3000"

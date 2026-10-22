@@ -10,7 +10,7 @@ const CANDIDATE = {
   phone: "6305700963",
   location: "Hyderabad, Telangana, India",
   city: "Hyderabad",
-  company: "Just Smart IT Solutions",
+  company: "Agentic Social AI",
   title: "AI Native Full Stack Developer",
   noticePeriodDays: "15",
   currentCTC: "1200000",

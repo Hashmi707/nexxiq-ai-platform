@@ -1,6 +1,6 @@
 /**
  * src/leads/lead-engine.js
- * Production-ready Lead Finder & Relationship Engine for NexxIQ AI Platform (nexxiqai.com).
+ * Production-ready Lead Finder & Relationship Engine for Agentic Social & Client Finder.
  * Discovers, filters, scores, categorizes, and tracks high-value client leads
  * across Web Development, Mobile Apps, SaaS MVPs, and AI Automation.
  */
@@ -32,7 +32,7 @@ class LeadEngine {
       if (existing.length === 0) {
         const seedLeads = [
           {
-            id: "lead_nexx_101",
+            id: "lead_agnt_101",
             name: "Rohit Yadav",
             company: "TechYappy Media",
             role: "Founder & CTO",
@@ -49,7 +49,7 @@ class LeadEngine {
             createdAt: new Date(Date.now() - 86400000 * 2).toISOString()
           },
           {
-            id: "lead_nexx_102",
+            id: "lead_agnt_102",
             name: "Muhammad Haris",
             company: "Apex Growth Ventures",
             role: "Managing Director",
@@ -66,7 +66,7 @@ class LeadEngine {
             createdAt: new Date(Date.now() - 86400000 * 3).toISOString()
           },
           {
-            id: "lead_nexx_103",
+            id: "lead_agnt_103",
             name: "Hitesh Prajapat",
             company: "OmniHealth Labs",
             role: "Head of Digital Products",
@@ -83,7 +83,7 @@ class LeadEngine {
             createdAt: new Date(Date.now() - 86400000 * 3).toISOString()
           },
           {
-            id: "lead_nexx_104",
+            id: "lead_agnt_104",
             name: "Elena Rostova",
             company: "ScaleFlow Enterprise",
             role: "VP of Engineering",
@@ -100,7 +100,7 @@ class LeadEngine {
             createdAt: new Date(Date.now() - 3600000 * 12).toISOString()
           },
           {
-            id: "lead_nexx_105",
+            id: "lead_agnt_105",
             name: "David Chen",
             company: "QuantumLogix Systems",
             role: "Co-Founder",

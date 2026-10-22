@@ -1,5 +1,47 @@
 [
   {
+    "id": "email_1792679641754_c29so",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "messageId": "<a2f4d262-ac95-a59d-4da1-8586b9a71739@wavcabs.com.au>",
+    "status": "SENT",
+    "sentAt": "2026-10-22T14:34:01.754Z",
+    "durationMs": 2446,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792679639277_vk7m",
+      "leadId": "lead_agnt_101"
+    }
+  },
+  {
+    "id": "email_1792679614403_urmwn",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "messageId": "<98f9eed9-3979-05b3-9910-ce9453d4ecbc@wavcabs.com.au>",
+    "status": "SENT",
+    "sentAt": "2026-10-22T14:33:34.403Z",
+    "durationMs": 7248,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792679607152_1wms",
+      "leadId": "lead_agnt_101"
+    }
+  },
+  {
+    "id": "email_1792678493203_jgzpz",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "messageId": "<58ed0a8b-c992-f23a-29f8-98385b70137d@wavcabs.com.au>",
+    "status": "SENT",
+    "sentAt": "2026-10-22T14:14:53.203Z",
+    "durationMs": 3567,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792678489634_mci2",
+      "leadId": "lead_agnt_101"
+    }
+  },
+  {
     "id": "email_1792677637523_f8mzs",
     "to": "info@techyappy.com",
     "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
@@ -10,7 +52,7 @@
     "durationMs": 3526,
     "metadata": {
       "workflowRunId": "wf_lead_1792677633995_q159",
-      "leadId": "lead_nexx_101"
+      "leadId": "lead_agnt_101"
     }
   },
   {
@@ -24,7 +66,7 @@
     "durationMs": 3491,
     "metadata": {
       "workflowRunId": "wf_lead_1792676254839_qz3g",
-      "leadId": "lead_nexx_101"
+      "leadId": "lead_agnt_101"
     }
   },
   {
@@ -38,7 +80,7 @@
     "durationMs": 4879,
     "metadata": {
       "workflowRunId": "wf_lead_1792675927624_0gjq",
-      "leadId": "lead_nexx_101"
+      "leadId": "lead_agnt_101"
     }
   },
   {
@@ -52,7 +94,7 @@
     "durationMs": 3700,
     "metadata": {
       "workflowRunId": "wf_lead_1792675890483_w7mt",
-      "leadId": "lead_nexx_101"
+      "leadId": "lead_agnt_101"
     }
   },
   {
@@ -66,7 +108,7 @@
     "durationMs": 3072,
     "metadata": {
       "workflowRunId": "wf_lead_1792674936974_hdba",
-      "leadId": "lead_nexx_101"
+      "leadId": "lead_agnt_101"
     }
   },
   {
@@ -80,7 +122,7 @@
     "durationMs": 5366,
     "metadata": {
       "workflowRunId": "wf_lead_1792674900956_2dcb",
-      "leadId": "lead_nexx_101"
+      "leadId": "lead_agnt_101"
     }
   }
 ]

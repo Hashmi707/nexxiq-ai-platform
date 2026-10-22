@@ -1,4 +1,4 @@
-# Service Catalogue — Just Smart IT Solutions
+# Service Catalogue — Agentic Social AI
 
 This file is the authoritative service-matching reference for lead qualification.
 

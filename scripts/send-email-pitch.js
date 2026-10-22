@@ -15,7 +15,7 @@ require("../config");
 const SENDER = {
   name: "Syed Akbar Hashmi",
   title: "AI Native Full Stack Developer & Founder",
-  company: "Just Smart IT Solutions",
+  company: "Agentic Social AI",
   email: process.env.CONTACT_EMAIL || "syedakbarhashmi519@gmail.com",
   portfolio: "https://syed-akber-hashmi-v2.vercel.app/"
 };
@@ -24,14 +24,14 @@ const EMAIL_PITCHES = [
   {
     recipient: "info@techyappy.com",
     name: "Rohit Yadav",
-    subject: "Collaboration on Web, Mobile App & SaaS Projects — Just Smart IT Solutions",
+    subject: "Collaboration on Web, Mobile App & SaaS Projects — Agentic Social AI",
     bodyText: `Hi Rohit,
 
 Hope you're having a productive week!
 
 I came across your recent update regarding partnerships for Web development, Mobile applications, and SaaS platforms.
 
-I lead Just Smart IT Solutions (https://syed-akber-hashmi-v2.vercel.app/). We specialize in:
+I lead Agentic Social AI (https://syed-akber-hashmi-v2.vercel.app/). We specialize in:
 • Full-stack web applications & enterprise portals (Next.js, Node.js, TypeScript)
 • Fluid, high-performance cross-platform mobile apps (Flutter & React Native)
 • Scalable SaaS MVPs engineered and deployed in 3–4 weeks
@@ -43,7 +43,7 @@ Feel free to reply here or check out our live builds at https://syed-akber-hashm
 
 Best regards,
 Syed Akbar Hashmi
-Founder & Lead Developer, Just Smart IT Solutions
+Founder & Lead Developer, Agentic Social AI
 Email: syedakbarhashmi519@gmail.com
 Portfolio: https://syed-akber-hashmi-v2.vercel.app/`
   }

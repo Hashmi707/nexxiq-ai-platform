@@ -7,7 +7,7 @@ async function runSmokeTests() {
   await new Promise(resolve => server.listen(0, resolve));
   const port = server.address().port;
   const baseUrl = `http://localhost:${port}`;
-  console.log(`Smoke testing NexxIQ AI server on ${baseUrl}...`);
+  console.log(`Smoke testing Agentic Social & Client Finder server on ${baseUrl}...`);
 
   const checks = [
     { url: "/api/health", expectedProp: "status", expectedVal: "HEALTHY" },
@@ -30,7 +30,7 @@ async function runSmokeTests() {
     assert.strictEqual(res.status, 200, `Expected status 200 for ${check.url}, got ${res.status}`);
     if (check.htmlCheck) {
       const text = await res.text();
-      assert(text.includes("NexxIQ AI Platform") || text.includes("nexxiqai.com"), `Expected HTML to contain brand`);
+      assert(text.includes("Agentic") || text.includes("Syed Akbar Hashmi"), `Expected HTML to contain brand`);
       console.log(`  ✓ PASS: Web UI (HTTP 200) -> ${check.url}`);
     } else {
       const json = await res.json();

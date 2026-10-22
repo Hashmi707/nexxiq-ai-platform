@@ -501,7 +501,7 @@ async function runAllTests() {
     assert.strictEqual(decision.temperature, "HOT", "Must be HOT temperature");
     assert.strictEqual(decision.service_match, true, "Service match must be true");
     assert(decision.matched_capability.toLowerCase().includes("web") || decision.matched_capability === "Custom websites", "Must match Web Development or Custom websites");
-    assert(decision.generated_comment && (decision.generated_comment.includes("http") || decision.generated_comment.includes("Just Smart IT") || decision.generated_comment.includes("codeair")), "Generated comment must cite verified company link or portfolio");
+    assert(decision.generated_comment && (decision.generated_comment.includes("http") || decision.generated_comment.includes("Agentic Social") || decision.generated_comment.includes("Syed Akbar") || decision.generated_comment.includes("codeair")), "Generated comment must cite verified company link or portfolio");
   });
 
   // 34. Verification on disguised seller post: duo.websitessss

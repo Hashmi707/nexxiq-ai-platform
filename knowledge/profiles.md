@@ -1,6 +1,6 @@
 # Official Profiles & Links
 
-This file contains the approved official links for Syed Akbar Hashmi and Just Smart IT Solutions.
+This file contains the approved official links for Syed Akbar Hashmi and Agentic Social AI.
 
 IMPORTANT:
 - These are official approved profile links.
@@ -41,7 +41,7 @@ Use when:
 ## Company Identity
 
 Company:
-Just Smart IT Solutions
+Agentic Social AI
 
 Official Website / Portfolio:
 https://syed-akber-hashmi-v2.vercel.app/

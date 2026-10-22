@@ -274,13 +274,13 @@ class AiDecisionEngine {
     }
 
     // Direct Founder / Brand inquiries
-    const isFounderInquiry = /\b(who\s+is\s+behind\s+(just\s+smart(\s+it\s+solutions)?|codeair|the\s+company|this)|founder\s+of\s+(just\s+smart(\s+it\s+solutions)?|codeair)|syed\s+akbar\s+hashmi)\b/i.test(lower);
+    const isFounderInquiry = /\b(who\s+is\s+behind\s+(agentic(\s+social)?(\s+ai)?|agentic(\s+client\s+finder)?|client\s+finder|codeair|the\s+company|this)|founder\s+of\s+(agentic(\s+social)?(\s+ai)?|agentic(\s+client\s+finder)?|client\s+finder|codeair)|syed\s+akbar\s+hashmi)\b/i.test(lower);
     if (isFounderInquiry) {
       return {
         qualified: true,
         intent: "FOUNDER_INQUIRY",
         lead_type: "FOUNDER_INQUIRY",
-        requirement: "Direct inquiry about founder Syed Akbar Hashmi and Just Smart IT Solutions",
+        requirement: "Direct inquiry about founder Syed Akbar Hashmi and Agentic Social AI",
         target_entity: "INDIVIDUAL",
         service_match: true,
         matched_capability: "AI Native Full Stack Developer & Systems Architecture",
@@ -292,18 +292,18 @@ class AiDecisionEngine {
         relevance_score: 95,
         is_genuine_buyer: true,
         should_reply: true,
-        generated_comment: "I'm Syed Akbar Hashmi, AI Native Full Stack Developer and founder behind Just Smart IT Solutions (https://syed-akber-hashmi-v2.vercel.app/). We build custom software, web platforms, mobile apps, and AI systems.",
+        generated_comment: "I'm Syed Akbar Hashmi, AI Native Full Stack Developer and creator of Agentic Social AI (https://syed-akber-hashmi-v2.vercel.app/). We build custom software, web platforms, mobile apps, and AI systems.",
         reason: "Grounded semantic match: direct founder inquiry."
       };
     }
 
-    const isCompanyInquiry = /\b(what\s+does\s+(just\s+smart(\s+it\s+solutions)?|codeair|the\s+company)\s+do|about\s+(just\s+smart(\s+it\s+solutions)?|codeair)|services\s+of\s+(just\s+smart(\s+it\s+solutions)?|codeair))\b/i.test(lower);
+    const isCompanyInquiry = /\b(what\s+does\s+(agentic(\s+social)?(\s+ai)?|agentic(\s+client\s+finder)?|client\s+finder|codeair|the\s+company)\s+do|about\s+(agentic(\s+social)?(\s+ai)?|agentic(\s+client\s+finder)?|client\s+finder|codeair)|services\s+of\s+(agentic(\s+social)?(\s+ai)?|agentic(\s+client\s+finder)?|client\s+finder|codeair))\b/i.test(lower);
     if (isCompanyInquiry) {
       return {
         qualified: true,
         intent: "COMPANY_INQUIRY",
         lead_type: "COMPANY_INQUIRY",
-        requirement: "Direct inquiry about Just Smart IT Solutions services and capabilities",
+        requirement: "Direct inquiry about Agentic Social AI services and capabilities",
         target_entity: "COMPANY",
         service_match: true,
         matched_capability: "Custom Web Applications & SaaS Platforms",
@@ -315,7 +315,7 @@ class AiDecisionEngine {
         relevance_score: 95,
         is_genuine_buyer: true,
         should_reply: true,
-        generated_comment: "Just Smart IT Solutions builds custom software, SaaS platforms, web applications, mobile apps, and AI automation (https://syed-akber-hashmi-v2.vercel.app/).",
+        generated_comment: "Agentic Social AI builds custom software, SaaS platforms, web applications, mobile apps, and AI automation (https://syed-akber-hashmi-v2.vercel.app/).",
         reason: "Grounded semantic match: direct company inquiry."
       };
     }

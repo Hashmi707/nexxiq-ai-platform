@@ -1,6 +1,6 @@
 /**
  * src/orchestrator/unified-workflow.js
- * End-to-End Autonomous Pipeline for NexxIQ AI Platform (nexxiqai.com).
+ * End-to-End Autonomous Pipeline for Agentic Social & Client Finder.
  * Connects Lead Generation, ATS Resume Optimization, Job Application,
  * and Secure SMTP Outreach into an integrated, production-grade workflow.
  */
