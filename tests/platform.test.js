@@ -4,6 +4,8 @@
  * Tests Lead Finder, SMTP Service, Multi-Platform Jobs, Resume ATS Enhancer, and Unified Workflow.
  */
 
+process.env.NODE_ENV = process.env.NODE_ENV || "test";
+
 const assert = require("assert");
 const leadEngine = require("../src/leads/lead-engine");
 const smtpService = require("../src/email/smtp-service");

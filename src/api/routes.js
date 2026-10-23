@@ -22,6 +22,7 @@ router.get("/health", (req, res) => {
   res.json({
     status: "HEALTHY",
     platform: "Agentic Social & Client Finder",
+    officialWebsite: "https://nexxiqai.com",
     domain: "https://syed-akber-hashmi-v2.vercel.app/",
     version: "2.1.0",
     uptimeSeconds: Math.round(process.uptime()),

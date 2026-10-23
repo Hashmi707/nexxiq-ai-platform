@@ -1,5 +1,315 @@
 [
   {
+    "runId": "wf_job_1792740087844_3qnf",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-23T07:21:27.847Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 4,
+    "completedAt": "2026-10-23T07:21:27.848Z"
+  },
+  {
+    "runId": "wf_lead_1792740087815_syku",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_agnt_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "status": "STAGED_READY",
+          "message": "Email staged for dispatch (SMTP credentials pending in .env or running in test mode)"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 24,
+    "completedAt": "2026-10-23T07:21:27.839Z"
+  },
+  {
+    "runId": "wf_job_1792739853788_5ilh",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-23T07:17:33.790Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 3,
+    "completedAt": "2026-10-23T07:17:33.791Z"
+  },
+  {
+    "runId": "wf_lead_1792739853767_7eqr",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_agnt_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "status": "STAGED_READY",
+          "message": "Email staged for dispatch (SMTP credentials pending in .env or running in test mode)"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 18,
+    "completedAt": "2026-10-23T07:17:33.785Z"
+  },
+  {
+    "runId": "wf_job_1792739819343_pqav",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-23T07:16:59.348Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 5,
+    "completedAt": "2026-10-23T07:16:59.348Z"
+  },
+  {
+    "runId": "wf_lead_1792739789294_i1yt",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_agnt_101",
+    "targetName": "Rohit Yadav (TechYappy Media)",
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      },
+      {
+        "step": "SMTP_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": false,
+          "status": "STAGED_OFFLINE",
+          "message": "SMTP dispatch paused (network offline: Email dispatch failed: DNS lookup for smtp.zoho.com.au timed out)"
+        }
+      },
+      {
+        "step": "STATUS_UPDATE",
+        "status": "SUCCESS",
+        "newStatus": "CONTACTED"
+      }
+    ],
+    "durationMs": 30047,
+    "completedAt": "2026-10-23T07:16:59.341Z"
+  },
+  {
+    "runId": "wf_job_1792739705578_yw9r",
+    "type": "JOB_APPLICATION",
+    "platform": "Indeed",
+    "targetId": "ind_test_pipeline_01",
+    "atsScore": 91,
+    "status": "SUCCESS",
+    "steps": [
+      {
+        "step": "INGESTION",
+        "status": "SUCCESS",
+        "platform": "Indeed"
+      },
+      {
+        "step": "ATS_OPTIMIZATION",
+        "status": "SUCCESS",
+        "originalAtsScore": 69,
+        "projectedAtsScore": 91,
+        "injectedKeywords": [
+          "Microservices",
+          "LLM"
+        ]
+      },
+      {
+        "step": "APPLICATION_DISPATCH",
+        "status": "SUCCESS",
+        "result": {
+          "success": true,
+          "jobKey": "ind_test_pipeline_01",
+          "title": "AI Engineer",
+          "company": "Indeed Verified Employer",
+          "status": "APPLIED",
+          "appliedAt": "2026-10-23T07:15:05.591Z",
+          "message": "Successfully submitted application to \"AI Engineer\" at Indeed Verified Employer via Indeed."
+        }
+      }
+    ],
+    "durationMs": 23,
+    "completedAt": "2026-10-23T07:15:05.601Z"
+  },
+  {
+    "runId": "wf_lead_1792739675526_2xdv",
+    "type": "LEAD_OUTREACH",
+    "targetId": "lead_agnt_101",
+    "status": "FAILED",
+    "error": "Email dispatch failed: DNS lookup for smtp.zoho.com.au timed out",
+    "steps": [
+      {
+        "step": "LEAD_RETRIEVAL",
+        "status": "SUCCESS",
+        "leadName": "Rohit Yadav",
+        "company": "TechYappy Media"
+      },
+      {
+        "step": "RECIPIENT_VALIDATION",
+        "status": "SUCCESS",
+        "email": "info@techyappy.com"
+      },
+      {
+        "step": "PITCH_SYNTHESIS",
+        "status": "SUCCESS",
+        "template": "agency_pitch"
+      }
+    ],
+    "durationMs": 30044,
+    "completedAt": "2026-10-23T07:15:05.570Z"
+  },
+  {
     "runId": "wf_job_1792680658694_cstt",
     "type": "JOB_APPLICATION",
     "platform": "Indeed",

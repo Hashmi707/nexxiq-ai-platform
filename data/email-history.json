@@ -1,5 +1,33 @@
 [
   {
+    "id": "email_1792739819320_t6ovj",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "status": "FAILED",
+    "error": "DNS lookup for smtp.zoho.com.au timed out",
+    "failedAt": "2026-10-23T07:16:59.320Z",
+    "durationMs": 30023,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792739789294_i1yt",
+      "leadId": "lead_agnt_101"
+    }
+  },
+  {
+    "id": "email_1792739705561_ewesf",
+    "to": "info@techyappy.com",
+    "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",
+    "templateId": "agency_pitch",
+    "status": "FAILED",
+    "error": "DNS lookup for smtp.zoho.com.au timed out",
+    "failedAt": "2026-10-23T07:15:05.561Z",
+    "durationMs": 30032,
+    "metadata": {
+      "workflowRunId": "wf_lead_1792739675526_2xdv",
+      "leadId": "lead_agnt_101"
+    }
+  },
+  {
     "id": "email_1792680658675_hcd3i",
     "to": "info@techyappy.com",
     "subject": "Full-Stack & AI Engineering Synergy — TechYappy Media",

@@ -102,8 +102,9 @@ function startServer(port = PORT) {
     const server = app.listen(port, HOST, () => {
       console.log(`\n==================================================`);
       console.log(`🚀 Agentic Social & Client Finder Active!`);
-      console.log(`🌐 Local Web Portal: http://localhost:${port}`);
-      console.log(`📡 API Base:        http://localhost:${port}/api/health`);
+      console.log(`🌐 Local Web Portal:  http://localhost:${port}`);
+      console.log(`📡 API Base:         http://localhost:${port}/api/health`);
+      console.log(`⭐ Official Platform: https://nexxiqai.com`);
       console.log(`==================================================\n`);
       resolve(server);
     }).on("error", (err) => {

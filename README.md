@@ -1,7 +1,8 @@
 # Agentic Social & Client Finder AI 🚀
 ### Autonomous Lead Generation, High-Intent Client Acquisition, Multi-Platform Job Automation & Secure Outreach Engine
-**Lead Engineer**: [Syed Akbar Hashmi](https://syed-akber-hashmi-v2.vercel.app/) • **Live Portfolio**: [syed-akber-hashmi-v2.vercel.app](https://syed-akber-hashmi-v2.vercel.app/) • **Contact**: [syedakbarhashmi519@gmail.com](mailto:syedakbarhashmi519@gmail.com)
+**Official Platform**: [nexxiqai.com](https://nexxiqai.com) • **Lead Engineer**: [Syed Akbar Hashmi](https://syed-akber-hashmi-v2.vercel.app/) • **Live Portfolio**: [syed-akber-hashmi-v2.vercel.app](https://syed-akber-hashmi-v2.vercel.app/) • **Contact**: [syedakbarhashmi519@gmail.com](mailto:syedakbarhashmi519@gmail.com)
 
+[![Official Platform](https://img.shields.io/badge/Official%20Platform-nexxiqai.com-6366f1.svg)](https://nexxiqai.com)
 [![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](https://syed-akber-hashmi-v2.vercel.app/)
 [![Tests Passing](https://img.shields.io/badge/Tests-100%25%20Passing-success.svg)](tests/)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-339933.svg)](https://nodejs.org)
